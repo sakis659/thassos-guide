@@ -135,6 +135,7 @@ def page(lang):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{e(t['title'])}</title>
 <meta name="description" content="{e(t['description'])}">
+<meta name="google-site-verification" content="bIGBCT5ZKMfr6wYTzHqtlYJxI6Z6y_axiCzH9b8dbJc" />
 <link rel="canonical" href="{url(lang)}">
 {alts}
 <meta property="og:type" content="website"><meta property="og:title" content="{e(t['title'])}">
