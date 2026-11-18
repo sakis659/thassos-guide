@@ -18,6 +18,14 @@ def url(lang):
     return f"{SITE}/" if lang == "en" else f"{SITE}/{lang}/"
 
 
+def gpath(lang, slug):
+    return f"/{slug}/" if lang == "en" else f"/{lang}/{slug}/"
+
+
+def gurl(lang, slug):
+    return SITE + gpath(lang, slug)
+
+
 def path(lang):
     return "/" if lang == "en" else f"/{lang}/"
 
@@ -100,6 +108,23 @@ footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:30px}
 footer h4{color:#fff;font-family:Georgia,serif;font-size:1.05rem;margin-bottom:10px}
 footer ul{list-style:none;display:grid;gap:6px}
 .langs a{margin-right:12px;color:#c9d6dd}
+.glist{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.gcard{display:block;text-decoration:none;color:var(--ink);background:#fff;border:1px solid #e8e2d6;border-radius:18px;overflow:hidden;transition:.2s}
+.gcard:hover{transform:translateY(-3px);box-shadow:0 14px 40px -18px #062a3a55}
+.gcard .ph{height:170px;background:var(--ph) center/cover no-repeat,linear-gradient(135deg,#16a6a0,#0b4f6c)}
+.gcard .tx{padding:18px 20px}.gcard h3{font-size:1.15rem;color:var(--sea);margin-bottom:6px}.gcard p{font-size:.92rem;color:#3c4a54}
+.gcard .more{display:inline-block;margin-top:10px;font-weight:600;color:var(--emerald)}
+.ghero{position:relative;min-height:62vh;display:flex;align-items:flex-end;color:#fff;
+ background:linear-gradient(180deg,#06293a66 0%,#06293a22 40%,#062a3ae6 100%),var(--hero) center/cover no-repeat,linear-gradient(135deg,#0b4f6c,#0f8b6f)}
+.ghero .wrap{padding-bottom:50px;padding-top:110px}.ghero h1{font-size:clamp(2.2rem,6vw,4rem);margin-top:14px;text-shadow:0 2px 30px #0006}
+.article{max-width:760px;margin:0 auto;padding:50px 22px 0}
+.article .lead{font-size:1.18rem;color:#2b3a44;margin-bottom:30px}
+.article h2{font-size:1.6rem;margin:34px 0 10px;color:var(--sea)}
+.article p{font-size:1.04rem;color:#2b3a44}
+.tipbox{margin-top:40px;background:var(--sand);border:1px solid #ebe3d2;border-radius:18px;padding:24px 26px}
+.tipbox h3{font-size:1.2rem;margin-bottom:10px}.tipbox ul{margin-left:20px;display:grid;gap:8px}
+.srcs{margin-top:30px;font-size:.88rem;color:var(--muted)}.srcs a{margin-right:10px}
+.backl{display:inline-block;margin-top:30px;font-weight:600;text-decoration:none}
 """
 
 
@@ -113,6 +138,85 @@ def credit(key):
 def short_credit(key):
     p = P[key]
     return f'Photo: {e(p["author"])} / Wikimedia Commons, {e(p["license"])}'
+
+
+def head(lang, title, desc, canon, alts, ogimg):
+    return f"""<!DOCTYPE html>
+<html lang="{lang}">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{e(title)}</title>
+<meta name="description" content="{e(desc)}">
+<meta name="google-site-verification" content="bIGBCT5ZKMfr6wYTzHqtlYJxI6Z6y_axiCzH9b8dbJc" />
+<link rel="canonical" href="{canon}">
+{alts}
+<meta property="og:type" content="website"><meta property="og:title" content="{e(title)}">
+<meta property="og:description" content="{e(desc)}"><meta property="og:image" content="{ogimg}">
+<meta property="og:url" content="{canon}"><meta property="og:locale" content="{lang}">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230f8b6f'/%3E%3Cpath d='M10 40c8-6 14-6 22 0s14 6 22 0' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>{CSS}</style>"""
+
+
+def topbar(lang, opts_for):
+    t = C["i18n"][lang]
+    opts = "".join(f'<option value="{opts_for(l)}"{" selected" if l == lang else ""}>{e(C["i18n"][l]["name"])}</option>' for l in LANGS)
+    return f"""<header class="top"><div class="wrap">
+  <a class="brand" href="{path(lang)}"><i></i>{e(t['brand'])}</a>
+  <label class="langsel" aria-label="{e(t['lang_label'])}"><select onchange="location.href=this.value">{opts}</select></label>
+</div></header>"""
+
+
+def footer(lang):
+    t = C["i18n"][lang]
+    return f"""<footer><div class="wrap cols">
+  <div>
+    <h4>{e(t['brand'])}</h4>
+    <p>{e(t['disclaimer'])}</p>
+    <p class="langs" style="margin-top:14px">{''.join(f'<a href="{path(l)}">{e(C["i18n"][l]["name"])}</a>' for l in LANGS)}</p>
+  </div>
+  <div>
+    <h4>{e(t['photo_credits'])}</h4>
+    <ul>{''.join(f'<li>{credit(k)}</li>' for k in P)}</ul>
+  </div>
+</div></footer>
+</body></html>
+"""
+
+
+def guide_page(lang, g):
+    t, gt = C["i18n"][lang], g["i18n"][lang]
+    alts = "".join(f'<link rel="alternate" hreflang="{l}" href="{gurl(l, g["slug"])}">' for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{gurl("en", g["slug"])}">'
+    ld = {"@context": "https://schema.org", "@type": "Article", "headline": gt["h1"], "description": gt["description"],
+          "inLanguage": lang, "dateModified": g["updated"], "image": img(g["photo"], 1200), "mainEntityOfPage": gurl(lang, g["slug"])}
+    secs = "".join(f"<h2>{e(h)}</h2><p>{e(p)}</p>" for h, p in gt["sections"])
+    tips = "".join(f"<li>{e(x)}</li>" for x in gt["tips"])
+    srcs = " ".join(f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["name"])}</a>' for s in g["sources"])
+    return (head(lang, gt["title"], gt["description"], gurl(lang, g["slug"]), alts, img(g["photo"], 1200))
+            + f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script></head><body>'
+            + topbar(lang, lambda l: gpath(l, g["slug"]))
+            + f"""<section class="ghero" style="--hero:url('{img(g['photo'])}')"><div class="wrap">
+  <span class="kicker">{e(t['hero_kicker'])}</span><h1>{e(gt['h1'])}</h1></div>
+  <div class="credit">{short_credit(g['photo'])}</div></section>
+<article class="article">
+  <p class="lead">{e(gt['intro'])}</p>
+  {secs}
+  <div class="tipbox"><h3>{e(t['tips_box'])}</h3><ul>{tips}</ul></div>
+  <p class="srcs">{e(t['sources'])}: {srcs} · {e(t['updated'])}: {g['updated']}</p>
+  <a class="backl" href="{path(lang)}">← {e(t['back'])}</a>
+</article>"""
+            + footer(lang))
+
+
+def guides_html(lang):
+    gs = C.get("guides", [])
+    if not gs:
+        return ""
+    t = C["i18n"][lang]
+    cards = "".join(f'<a class="gcard" href="{gpath(lang, g["slug"])}"><div class="ph" style="--ph:url(\'{img(g["photo"], 800)}\')"></div>'
+                    f'<div class="tx"><h3>{e(g["i18n"][lang]["h1"])}</h3><p>{e(g["i18n"][lang]["description"][:150])}…</p>'
+                    f'<span class="more">{e(t["read"])} →</span></div></a>' for g in gs)
+    return f'<section id="guides"><div class="wrap"><div class="sh"><h2>{e(t["guides_h"])}</h2></div><div class="glist">{cards}</div></div></section>'
 
 
 def page(lang):
@@ -148,7 +252,7 @@ def page(lang):
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="{path(lang)}"><i></i>{e(t['brand'])}</a>
-  <nav class="links"><a href="#getting">{e(nav['getting'])}</a><a href="#beaches">{e(nav['beaches'])}</a><a href="#villages">{e(nav['villages'])}</a><a href="#tips">{e(nav['tips'])}</a></nav>
+  <nav class="links"><a href="#getting">{e(nav['getting'])}</a><a href="#beaches">{e(nav['beaches'])}</a><a href="#villages">{e(nav['villages'])}</a><a href="#guides">{e(C['i18n'][lang]['guides_h'])}</a><a href="#tips">{e(nav['tips'])}</a></nav>
   <label class="langsel" aria-label="{e(t['lang_label'])}"><select onchange="location.href=this.value">{opts}</select></label>
 </div></header>
 
@@ -187,6 +291,7 @@ def page(lang):
   </div>
 </div></section>
 
+{guides_html(lang)}
 <section id="tips"><div class="wrap">
   <div class="sh"><h2>{e(t['tips_h'])}</h2></div>
   <ul class="tips">{tips}</ul>
@@ -215,11 +320,20 @@ def main():
         d = ROOT if lang == "en" else os.path.join(ROOT, lang)
         os.makedirs(d, exist_ok=True)
         open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(page(lang))
+    for g in C.get("guides", []):
+        for lang in LANGS:
+            d = os.path.join(ROOT, g["slug"]) if lang == "en" else os.path.join(ROOT, lang, g["slug"])
+            os.makedirs(d, exist_ok=True)
+            open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(guide_page(lang, g))
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for lang in LANGS:
         alts = "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{url(l)}"/>' for l in LANGS)
         sm.append(f"<url><loc>{url(lang)}</loc><lastmod>{C['updated']}</lastmod>{alts}</url>")
+    for g in C.get("guides", []):
+        for lang in LANGS:
+            alts = "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{gurl(l, g["slug"])}"/>' for l in LANGS)
+            sm.append(f"<url><loc>{gurl(lang, g['slug'])}</loc><lastmod>{g['updated']}</lastmod>{alts}</url>")
     sm.append("</urlset>\n")
     open(os.path.join(ROOT, "sitemap.xml"), "w").write("\n".join(sm))
     open(os.path.join(ROOT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n")

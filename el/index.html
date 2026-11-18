@@ -90,13 +90,30 @@ footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:30px}
 footer h4{color:#fff;font-family:Georgia,serif;font-size:1.05rem;margin-bottom:10px}
 footer ul{list-style:none;display:grid;gap:6px}
 .langs a{margin-right:12px;color:#c9d6dd}
+.glist{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.gcard{display:block;text-decoration:none;color:var(--ink);background:#fff;border:1px solid #e8e2d6;border-radius:18px;overflow:hidden;transition:.2s}
+.gcard:hover{transform:translateY(-3px);box-shadow:0 14px 40px -18px #062a3a55}
+.gcard .ph{height:170px;background:var(--ph) center/cover no-repeat,linear-gradient(135deg,#16a6a0,#0b4f6c)}
+.gcard .tx{padding:18px 20px}.gcard h3{font-size:1.15rem;color:var(--sea);margin-bottom:6px}.gcard p{font-size:.92rem;color:#3c4a54}
+.gcard .more{display:inline-block;margin-top:10px;font-weight:600;color:var(--emerald)}
+.ghero{position:relative;min-height:62vh;display:flex;align-items:flex-end;color:#fff;
+ background:linear-gradient(180deg,#06293a66 0%,#06293a22 40%,#062a3ae6 100%),var(--hero) center/cover no-repeat,linear-gradient(135deg,#0b4f6c,#0f8b6f)}
+.ghero .wrap{padding-bottom:50px;padding-top:110px}.ghero h1{font-size:clamp(2.2rem,6vw,4rem);margin-top:14px;text-shadow:0 2px 30px #0006}
+.article{max-width:760px;margin:0 auto;padding:50px 22px 0}
+.article .lead{font-size:1.18rem;color:#2b3a44;margin-bottom:30px}
+.article h2{font-size:1.6rem;margin:34px 0 10px;color:var(--sea)}
+.article p{font-size:1.04rem;color:#2b3a44}
+.tipbox{margin-top:40px;background:var(--sand);border:1px solid #ebe3d2;border-radius:18px;padding:24px 26px}
+.tipbox h3{font-size:1.2rem;margin-bottom:10px}.tipbox ul{margin-left:20px;display:grid;gap:8px}
+.srcs{margin-top:30px;font-size:.88rem;color:var(--muted)}.srcs a{margin-right:10px}
+.backl{display:inline-block;margin-top:30px;font-weight:600;text-decoration:none}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristDestination", "name": "Thassos", "url": "https://thassos-guide.pages.dev/el/", "description": "Πρακτικός οδηγός για τη Θάσο, το πράσινο νησί της Βόρειας Ελλάδας: πώς θα πάτε με το πλοίο, οι καλύτερες παραλίες, τα ορεινά χωριά, τα αξιοθέατα και πότε να πάτε.", "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diving_in_the_Giola_pool_-_panoramio.jpg?width=1200", "inLanguage": "el", "geo": {"@type": "GeoCoordinates", "latitude": 40.68, "longitude": 24.65}}</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
   <a class="brand" href="/el/"><i></i>Οδηγός Θάσου</a>
-  <nav class="links"><a href="#getting">Πώς θα πάτε</a><a href="#beaches">Παραλίες</a><a href="#villages">Χωριά</a><a href="#tips">Συμβουλές</a></nav>
+  <nav class="links"><a href="#getting">Πώς θα πάτε</a><a href="#beaches">Παραλίες</a><a href="#villages">Χωριά</a><a href="#guides">Αναλυτικοί οδηγοί</a><a href="#tips">Συμβουλές</a></nav>
   <label class="langsel" aria-label="Γλώσσα"><select onchange="location.href=this.value"><option value="/">English</option><option value="/el/" selected>Ελληνικά</option><option value="/ro/">Română</option><option value="/bg/">Български</option><option value="/de/">Deutsch</option><option value="/tr/">Türkçe</option></select></label>
 </div></header>
 
@@ -135,6 +152,7 @@ footer ul{list-style:none;display:grid;gap:6px}
   </div>
 </div></section>
 
+<section id="guides"><div class="wrap"><div class="sh"><h2>Αναλυτικοί οδηγοί</h2></div><div class="glist"><a class="gcard" href="/el/giola/"><div class="ph" style="--ph:url('https://commons.wikimedia.org/wiki/Special:FilePath/Diving_in_the_Giola_pool_-_panoramio.jpg?width=800')"></div><div class="tx"><h3>Γιόλα: η φυσική πισίνα της Θάσου</h3><p>Όλα όσα χρειάζεστε για τη Γιόλα, τη φυσική θαλάσσια πισίνα κοντά στην Αστρίδα της Θάσου: διαδρομή, πάρκινγκ, μονοπάτι, τι να πάρετε μαζί σας, πότε να …</p><span class="more">Διαβάστε τον οδηγό →</span></div></a></div></div></section>
 <section id="tips"><div class="wrap">
   <div class="sh"><h2>Καλό να ξέρετε</h2></div>
   <ul class="tips"><li>Ιούλιος και Αύγουστος έχουν τη μεγαλύτερη κίνηση. Μάιος, Ιούνιος και Σεπτέμβριος είναι πιο ήσυχοι και ζεστοί.</li><li>Νοικιάστε αυτοκίνητο νωρίς στην υψηλή σεζόν και κλείστε το πλοίο της επιστροφής για τα γεμάτα Σαββατοκύριακα.</li><li>Δοκιμάστε το ντόπιο μέλι, για το οποίο φημίζεται το νησί.</li><li>Όταν φυσάει βοριάς, οι παραλίες της ανατολικής και της νότιας ακτής είναι συνήθως πιο ήρεμες.</li></ul>
@@ -146,7 +164,7 @@ footer ul{list-style:none;display:grid;gap:6px}
   <div>
     <h4>Οδηγός Θάσου</h4>
     <p>Οι πληροφορίες ελέγχονται τακτικά, αλλά μπορεί να αλλάξουν. Επιβεβαιώνετε δρομολόγια και ωράρια επί τόπου.</p>
-    <p style="margin-top:10px">Τελευταίος έλεγχος: 2026-11-17</p>
+    <p style="margin-top:10px">Τελευταίος έλεγχος: 2026-11-18</p>
     <p class="langs" style="margin-top:14px"><a href="/">English</a><a href="/el/">Ελληνικά</a><a href="/ro/">Română</a><a href="/bg/">Български</a><a href="/de/">Deutsch</a><a href="/tr/">Türkçe</a></p>
   </div>
   <div>

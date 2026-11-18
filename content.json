@@ -1,7 +1,14 @@
 {
   "site": "https://thassos-guide.pages.dev",
-  "updated": "2026-11-17",
-  "languages": ["en", "el", "ro", "bg", "de", "tr"],
+  "updated": "2026-11-18",
+  "languages": [
+    "en",
+    "el",
+    "ro",
+    "bg",
+    "de",
+    "tr"
+  ],
   "photos": {
     "giola": {
       "file": "Diving_in_the_Giola_pool_-_panoramio.jpg",
@@ -38,37 +45,98 @@
       "hero_title": "Thassos, the emerald island",
       "hero_sub": "Pine forests that reach the sea, turquoise water, marble beaches and stone villages, just a short ferry ride from the mainland.",
       "cta": "Plan your trip",
-      "nav": {"getting": "Getting there", "beaches": "Beaches", "villages": "Villages", "sights": "Sights", "tips": "Tips"},
+      "nav": {
+        "getting": "Getting there",
+        "beaches": "Beaches",
+        "villages": "Villages",
+        "sights": "Sights",
+        "tips": "Tips"
+      },
       "facts": [
-        ["⛴", "35–40 min", "ferry from Keramoti"],
-        ["☀", "May – Sep", "best season"],
-        ["🏖", "Dozens", "of beaches"],
-        ["🍯", "Honey & marble", "island classics"]
+        [
+          "⛴",
+          "35–40 min",
+          "ferry from Keramoti"
+        ],
+        [
+          "☀",
+          "May – Sep",
+          "best season"
+        ],
+        [
+          "🏖",
+          "Dozens",
+          "of beaches"
+        ],
+        [
+          "🍯",
+          "Honey & marble",
+          "island classics"
+        ]
       ],
       "getting_h": "Getting there",
       "getting": [
-        ["Keramoti → Limenas", "The main and quickest route: about 35–40 minutes. In summer 2026 there were 38 crossings a day in each direction, with fewer in winter. Car ferries, so you can take your car."],
-        ["Kavala → Skala Prinos", "Straight from the city of Kavala, about 1 hour 15 minutes, with a few departures a day."],
-        ["By air", "The nearest airport is Kavala International (KVA), close to Keramoti. From there it's a short drive or taxi to the ferry."]
+        [
+          "Keramoti → Limenas",
+          "The main and quickest route: about 35–40 minutes. In summer 2026 there were 38 crossings a day in each direction, with fewer in winter. Car ferries, so you can take your car."
+        ],
+        [
+          "Kavala → Skala Prinos",
+          "Straight from the city of Kavala, about 1 hour 15 minutes, with a few departures a day."
+        ],
+        [
+          "By air",
+          "The nearest airport is Kavala International (KVA), close to Keramoti. From there it's a short drive or taxi to the ferry."
+        ]
       ],
       "getting_note": "Timetables and prices change by season. Always check with the ferry operators before you travel.",
       "around_h": "Getting around",
       "around": "A car or scooter is the best way to explore beaches and mountain villages at your own pace. In summer, public buses link the main villages and beaches. A full loop of the mountain villages is about 97 km, roughly 2 hours of driving.",
       "beaches_h": "Beaches you shouldn't miss",
       "beaches": [
-        ["Giola", "A natural rock pool beside the open sea on the south coast. The island's most famous photo spot."],
-        ["Marble Beach (Saliara)", "White marble pebbles and emerald water. Reached by a dirt road; sunbeds and a beach bar."],
-        ["Golden Beach", "Over 2 km of fine golden sand and shallow water on the east coast. Great for families."],
-        ["Paradise Beach", "A popular sandy beach framed by pines, with small waves."],
-        ["Aliki", "Twin bays beside an ancient marble quarry. Swim next to columns and ruins."]
+        [
+          "Giola",
+          "A natural rock pool beside the open sea on the south coast. The island's most famous photo spot."
+        ],
+        [
+          "Marble Beach (Saliara)",
+          "White marble pebbles and emerald water. Reached by a dirt road; sunbeds and a beach bar."
+        ],
+        [
+          "Golden Beach",
+          "Over 2 km of fine golden sand and shallow water on the east coast. Great for families."
+        ],
+        [
+          "Paradise Beach",
+          "A popular sandy beach framed by pines, with small waves."
+        ],
+        [
+          "Aliki",
+          "Twin bays beside an ancient marble quarry. Swim next to columns and ruins."
+        ]
       ],
       "villages_h": "Villages & sights",
       "villages": [
-        ["Limenas", "The capital and main port. Walk to the Ancient Agora, the ancient theatre on the hill and the Archaeological Museum."],
-        ["Panagia", "The old capital, with stone mansions, running water, plane trees and good taverns."],
-        ["Kazaviti", "The island's oldest village: two settlements, Mikro and Megalo, hidden from the coast to avoid pirates."],
-        ["Theologos", "Stone houses, a folklore museum and a quiet mountain atmosphere."],
-        ["Monastery of Archangel Michael", "The largest monastery on Thassos, perched on a cliff above the sea. Dress modestly when visiting."]
+        [
+          "Limenas",
+          "The capital and main port. Walk to the Ancient Agora, the ancient theatre on the hill and the Archaeological Museum."
+        ],
+        [
+          "Panagia",
+          "The old capital, with stone mansions, running water, plane trees and good taverns."
+        ],
+        [
+          "Kazaviti",
+          "The island's oldest village: two settlements, Mikro and Megalo, hidden from the coast to avoid pirates."
+        ],
+        [
+          "Theologos",
+          "Stone houses, a folklore museum and a quiet mountain atmosphere."
+        ],
+        [
+          "Monastery of Archangel Michael",
+          "The largest monastery on Thassos, perched on a cliff above the sea. Dress modestly when visiting."
+        ]
       ],
       "tips_h": "Good to know",
       "tips": [
@@ -80,7 +148,13 @@
       "photo_credits": "Photo credits",
       "updated_label": "Last checked",
       "disclaimer": "Information is checked regularly, but things change. Please confirm schedules and opening times locally.",
-      "lang_label": "Language"
+      "lang_label": "Language",
+      "guides_h": "In-depth guides",
+      "read": "Read the guide",
+      "sources": "Sources",
+      "back": "All of Thassos",
+      "tips_box": "Before you go",
+      "updated": "Updated"
     },
     "el": {
       "name": "Ελληνικά",
@@ -91,37 +165,98 @@
       "hero_title": "Θάσος, το σμαραγδένιο νησί",
       "hero_sub": "Πευκοδάση που φτάνουν ως τη θάλασσα, τιρκουάζ νερά, μαρμάρινες παραλίες και πέτρινα χωριά, λίγα λεπτά με το πλοίο από τη στεριά.",
       "cta": "Οργανώστε το ταξίδι σας",
-      "nav": {"getting": "Πώς θα πάτε", "beaches": "Παραλίες", "villages": "Χωριά", "sights": "Αξιοθέατα", "tips": "Συμβουλές"},
+      "nav": {
+        "getting": "Πώς θα πάτε",
+        "beaches": "Παραλίες",
+        "villages": "Χωριά",
+        "sights": "Αξιοθέατα",
+        "tips": "Συμβουλές"
+      },
       "facts": [
-        ["⛴", "35–40 λεπτά", "με πλοίο από Κεραμωτή"],
-        ["☀", "Μάιος – Σεπ.", "καλύτερη εποχή"],
-        ["🏖", "Δεκάδες", "παραλίες"],
-        ["🍯", "Μέλι & μάρμαρο", "τα κλασικά του νησιού"]
+        [
+          "⛴",
+          "35–40 λεπτά",
+          "με πλοίο από Κεραμωτή"
+        ],
+        [
+          "☀",
+          "Μάιος – Σεπ.",
+          "καλύτερη εποχή"
+        ],
+        [
+          "🏖",
+          "Δεκάδες",
+          "παραλίες"
+        ],
+        [
+          "🍯",
+          "Μέλι & μάρμαρο",
+          "τα κλασικά του νησιού"
+        ]
       ],
       "getting_h": "Πώς θα πάτε",
       "getting": [
-        ["Κεραμωτή → Λιμένας", "Η κύρια και πιο γρήγορη διαδρομή: περίπου 35–40 λεπτά. Το καλοκαίρι του 2026 υπήρχαν 38 δρομολόγια την ημέρα προς κάθε κατεύθυνση, και λιγότερα τον χειμώνα. Είναι οχηματαγωγά, οπότε μπορείτε να πάρετε το αυτοκίνητο."],
-        ["Καβάλα → Σκάλα Πρίνου", "Απευθείας από την πόλη της Καβάλας, περίπου 1 ώρα και 15 λεπτά, με λίγα δρομολόγια την ημέρα."],
-        ["Αεροπορικώς", "Το πλησιέστερο αεροδρόμιο είναι το Διεθνές Αεροδρόμιο Καβάλας (KVA), κοντά στην Κεραμωτή. Από εκεί είναι λίγη ώρα με αυτοκίνητο ή ταξί μέχρι το πλοίο."]
+        [
+          "Κεραμωτή → Λιμένας",
+          "Η κύρια και πιο γρήγορη διαδρομή: περίπου 35–40 λεπτά. Το καλοκαίρι του 2026 υπήρχαν 38 δρομολόγια την ημέρα προς κάθε κατεύθυνση, και λιγότερα τον χειμώνα. Είναι οχηματαγωγά, οπότε μπορείτε να πάρετε το αυτοκίνητο."
+        ],
+        [
+          "Καβάλα → Σκάλα Πρίνου",
+          "Απευθείας από την πόλη της Καβάλας, περίπου 1 ώρα και 15 λεπτά, με λίγα δρομολόγια την ημέρα."
+        ],
+        [
+          "Αεροπορικώς",
+          "Το πλησιέστερο αεροδρόμιο είναι το Διεθνές Αεροδρόμιο Καβάλας (KVA), κοντά στην Κεραμωτή. Από εκεί είναι λίγη ώρα με αυτοκίνητο ή ταξί μέχρι το πλοίο."
+        ]
       ],
       "getting_note": "Τα δρομολόγια και οι τιμές αλλάζουν ανάλογα με την εποχή. Επιβεβαιώνετε πάντα με τις ακτοπλοϊκές εταιρείες πριν ταξιδέψετε.",
       "around_h": "Μετακινήσεις στο νησί",
       "around": "Με αυτοκίνητο ή μηχανάκι γυρίζετε παραλίες και ορεινά χωριά με τον δικό σας ρυθμό. Το καλοκαίρι, λεωφορεία συνδέουν τα κύρια χωριά και τις παραλίες. Ο γύρος όλων των ορεινών χωριών είναι περίπου 97 χλμ., γύρω στις 2 ώρες οδήγησης.",
       "beaches_h": "Παραλίες που δεν πρέπει να χάσετε",
       "beaches": [
-        ["Γιόλα", "Φυσική πισίνα στα βράχια, δίπλα στο ανοιχτό πέλαγος, στη νότια ακτή. Το πιο διάσημο σημείο του νησιού για φωτογραφίες."],
-        ["Μαρμάρινη παραλία (Σαλιάρα)", "Λευκά μαρμάρινα βότσαλα και σμαραγδένια νερά. Πρόσβαση από χωματόδρομο, με ξαπλώστρες και beach bar."],
-        ["Χρυσή Αμμουδιά (Golden Beach)", "Πάνω από 2 χλμ. ψιλή χρυσή άμμος και ρηχά νερά στην ανατολική ακτή. Ιδανική για οικογένειες."],
-        ["Παράδεισος (Paradise Beach)", "Δημοφιλής αμμουδιά μέσα στα πεύκα, με μικρά κύματα."],
-        ["Αλυκή", "Δύο κολπίσκοι δίπλα σε αρχαίο λατομείο μαρμάρου. Κολυμπάτε ανάμεσα σε κίονες και αρχαία ερείπια."]
+        [
+          "Γιόλα",
+          "Φυσική πισίνα στα βράχια, δίπλα στο ανοιχτό πέλαγος, στη νότια ακτή. Το πιο διάσημο σημείο του νησιού για φωτογραφίες."
+        ],
+        [
+          "Μαρμάρινη παραλία (Σαλιάρα)",
+          "Λευκά μαρμάρινα βότσαλα και σμαραγδένια νερά. Πρόσβαση από χωματόδρομο, με ξαπλώστρες και beach bar."
+        ],
+        [
+          "Χρυσή Αμμουδιά (Golden Beach)",
+          "Πάνω από 2 χλμ. ψιλή χρυσή άμμος και ρηχά νερά στην ανατολική ακτή. Ιδανική για οικογένειες."
+        ],
+        [
+          "Παράδεισος (Paradise Beach)",
+          "Δημοφιλής αμμουδιά μέσα στα πεύκα, με μικρά κύματα."
+        ],
+        [
+          "Αλυκή",
+          "Δύο κολπίσκοι δίπλα σε αρχαίο λατομείο μαρμάρου. Κολυμπάτε ανάμεσα σε κίονες και αρχαία ερείπια."
+        ]
       ],
       "villages_h": "Χωριά και αξιοθέατα",
       "villages": [
-        ["Λιμένας", "Η πρωτεύουσα και το κύριο λιμάνι. Περπατήστε ως την Αρχαία Αγορά, το αρχαίο θέατρο στον λόφο και το Αρχαιολογικό Μουσείο."],
-        ["Παναγία", "Η παλιά πρωτεύουσα, με πέτρινα αρχοντικά, τρεχούμενα νερά, πλατάνια και καλές ταβέρνες."],
-        ["Καζαβίτι", "Το παλαιότερο χωριό του νησιού: δύο οικισμοί, Μικρό και Μεγάλο, κρυμμένοι από την ακτή για προστασία από τους πειρατές."],
-        ["Θεολόγος", "Πέτρινα σπίτια, λαογραφικό μουσείο και ήρεμη ορεινή ατμόσφαιρα."],
-        ["Μονή Αρχαγγέλου Μιχαήλ", "Το μεγαλύτερο μοναστήρι της Θάσου, πάνω σε γκρεμό πάνω από τη θάλασσα. Σεμνή ενδυμασία κατά την επίσκεψη."]
+        [
+          "Λιμένας",
+          "Η πρωτεύουσα και το κύριο λιμάνι. Περπατήστε ως την Αρχαία Αγορά, το αρχαίο θέατρο στον λόφο και το Αρχαιολογικό Μουσείο."
+        ],
+        [
+          "Παναγία",
+          "Η παλιά πρωτεύουσα, με πέτρινα αρχοντικά, τρεχούμενα νερά, πλατάνια και καλές ταβέρνες."
+        ],
+        [
+          "Καζαβίτι",
+          "Το παλαιότερο χωριό του νησιού: δύο οικισμοί, Μικρό και Μεγάλο, κρυμμένοι από την ακτή για προστασία από τους πειρατές."
+        ],
+        [
+          "Θεολόγος",
+          "Πέτρινα σπίτια, λαογραφικό μουσείο και ήρεμη ορεινή ατμόσφαιρα."
+        ],
+        [
+          "Μονή Αρχαγγέλου Μιχαήλ",
+          "Το μεγαλύτερο μοναστήρι της Θάσου, πάνω σε γκρεμό πάνω από τη θάλασσα. Σεμνή ενδυμασία κατά την επίσκεψη."
+        ]
       ],
       "tips_h": "Καλό να ξέρετε",
       "tips": [
@@ -133,7 +268,13 @@
       "photo_credits": "Φωτογραφίες",
       "updated_label": "Τελευταίος έλεγχος",
       "disclaimer": "Οι πληροφορίες ελέγχονται τακτικά, αλλά μπορεί να αλλάξουν. Επιβεβαιώνετε δρομολόγια και ωράρια επί τόπου.",
-      "lang_label": "Γλώσσα"
+      "lang_label": "Γλώσσα",
+      "guides_h": "Αναλυτικοί οδηγοί",
+      "read": "Διαβάστε τον οδηγό",
+      "sources": "Πηγές",
+      "back": "Όλη η Θάσος",
+      "tips_box": "Πριν πάτε",
+      "updated": "Ενημερώθηκε"
     },
     "ro": {
       "name": "Română",
@@ -144,37 +285,98 @@
       "hero_title": "Thassos, insula de smarald",
       "hero_sub": "Păduri de pin care coboară până la mare, apă turcoaz, plaje de marmură și sate de piatră, la doar o scurtă traversare cu feribotul de continent.",
       "cta": "Planifică-ți călătoria",
-      "nav": {"getting": "Cum ajungi", "beaches": "Plaje", "villages": "Sate", "sights": "Obiective", "tips": "Sfaturi"},
+      "nav": {
+        "getting": "Cum ajungi",
+        "beaches": "Plaje",
+        "villages": "Sate",
+        "sights": "Obiective",
+        "tips": "Sfaturi"
+      },
       "facts": [
-        ["⛴", "35–40 min", "cu feribotul din Keramoti"],
-        ["☀", "Mai – Sep", "cel mai bun sezon"],
-        ["🏖", "Zeci", "de plaje"],
-        ["🍯", "Miere & marmură", "clasicele insulei"]
+        [
+          "⛴",
+          "35–40 min",
+          "cu feribotul din Keramoti"
+        ],
+        [
+          "☀",
+          "Mai – Sep",
+          "cel mai bun sezon"
+        ],
+        [
+          "🏖",
+          "Zeci",
+          "de plaje"
+        ],
+        [
+          "🍯",
+          "Miere & marmură",
+          "clasicele insulei"
+        ]
       ],
       "getting_h": "Cum ajungi",
       "getting": [
-        ["Keramoti → Limenas", "Ruta principală și cea mai rapidă: aproximativ 35–40 de minute. În vara lui 2026 au fost 38 de curse pe zi în fiecare sens, iar iarna sunt mai puține. Feribotul transportă și mașini."],
-        ["Kavala → Skala Prinos", "Direct din orașul Kavala, aproximativ 1 oră și 15 minute, cu câteva plecări pe zi."],
-        ["Cu avionul", "Cel mai apropiat aeroport este Aeroportul Internațional Kavala (KVA), aproape de Keramoti. De acolo ajungi rapid la feribot cu mașina sau cu taxiul."]
+        [
+          "Keramoti → Limenas",
+          "Ruta principală și cea mai rapidă: aproximativ 35–40 de minute. În vara lui 2026 au fost 38 de curse pe zi în fiecare sens, iar iarna sunt mai puține. Feribotul transportă și mașini."
+        ],
+        [
+          "Kavala → Skala Prinos",
+          "Direct din orașul Kavala, aproximativ 1 oră și 15 minute, cu câteva plecări pe zi."
+        ],
+        [
+          "Cu avionul",
+          "Cel mai apropiat aeroport este Aeroportul Internațional Kavala (KVA), aproape de Keramoti. De acolo ajungi rapid la feribot cu mașina sau cu taxiul."
+        ]
       ],
       "getting_note": "Orarele și prețurile se schimbă în funcție de sezon. Verifică întotdeauna la companiile de feribot înainte de călătorie.",
       "around_h": "Deplasarea pe insulă",
       "around": "Cu mașina sau scuterul explorezi plajele și satele de munte în ritmul tău. Vara, autobuzele leagă principalele sate și plaje. Un tur complet al satelor de munte are aproximativ 97 km, adică în jur de 2 ore de condus.",
       "beaches_h": "Plaje de neratat",
       "beaches": [
-        ["Giola", "O piscină naturală între stânci, lângă largul mării, pe coasta de sud. Cel mai celebru loc de fotografii al insulei."],
-        ["Plaja de Marmură (Saliara)", "Pietricele albe de marmură și apă de smarald. Se ajunge pe un drum de pământ; are șezlonguri și beach bar."],
-        ["Golden Beach (Chrysi Ammoudia)", "Peste 2 km de nisip fin, auriu, și apă mică pe coasta de est. Ideală pentru familii."],
-        ["Paradise Beach", "O plajă de nisip foarte populară, înconjurată de pini, cu valuri mici."],
-        ["Aliki", "Două golfuri lângă o carieră antică de marmură. Înoți printre coloane și ruine."]
+        [
+          "Giola",
+          "O piscină naturală între stânci, lângă largul mării, pe coasta de sud. Cel mai celebru loc de fotografii al insulei."
+        ],
+        [
+          "Plaja de Marmură (Saliara)",
+          "Pietricele albe de marmură și apă de smarald. Se ajunge pe un drum de pământ; are șezlonguri și beach bar."
+        ],
+        [
+          "Golden Beach (Chrysi Ammoudia)",
+          "Peste 2 km de nisip fin, auriu, și apă mică pe coasta de est. Ideală pentru familii."
+        ],
+        [
+          "Paradise Beach",
+          "O plajă de nisip foarte populară, înconjurată de pini, cu valuri mici."
+        ],
+        [
+          "Aliki",
+          "Două golfuri lângă o carieră antică de marmură. Înoți printre coloane și ruine."
+        ]
       ],
       "villages_h": "Sate și obiective",
       "villages": [
-        ["Limenas", "Capitala și portul principal. Mergi pe jos până la Agora antică, teatrul antic de pe deal și Muzeul Arheologic."],
-        ["Panagia", "Vechea capitală, cu conace de piatră, apă curgătoare, platani și taverne bune."],
-        ["Kazaviti", "Cel mai vechi sat al insulei: două așezări, Mikro și Megalo, ascunse de coastă pentru a se feri de pirați."],
-        ["Theologos", "Case de piatră, un muzeu de folclor și o atmosferă liniștită de munte."],
-        ["Mănăstirea Arhanghelul Mihail", "Cea mai mare mănăstire din Thassos, pe o stâncă deasupra mării. Îmbrăcăminte decentă la vizită."]
+        [
+          "Limenas",
+          "Capitala și portul principal. Mergi pe jos până la Agora antică, teatrul antic de pe deal și Muzeul Arheologic."
+        ],
+        [
+          "Panagia",
+          "Vechea capitală, cu conace de piatră, apă curgătoare, platani și taverne bune."
+        ],
+        [
+          "Kazaviti",
+          "Cel mai vechi sat al insulei: două așezări, Mikro și Megalo, ascunse de coastă pentru a se feri de pirați."
+        ],
+        [
+          "Theologos",
+          "Case de piatră, un muzeu de folclor și o atmosferă liniștită de munte."
+        ],
+        [
+          "Mănăstirea Arhanghelul Mihail",
+          "Cea mai mare mănăstire din Thassos, pe o stâncă deasupra mării. Îmbrăcăminte decentă la vizită."
+        ]
       ],
       "tips_h": "Bine de știut",
       "tips": [
@@ -186,7 +388,13 @@
       "photo_credits": "Fotografii",
       "updated_label": "Ultima verificare",
       "disclaimer": "Informațiile sunt verificate regulat, dar se pot schimba. Confirmă orarele și programul la fața locului.",
-      "lang_label": "Limbă"
+      "lang_label": "Limbă",
+      "guides_h": "Ghiduri detaliate",
+      "read": "Citește ghidul",
+      "sources": "Surse",
+      "back": "Tot Thassos-ul",
+      "tips_box": "Înainte să mergi",
+      "updated": "Actualizat"
     },
     "bg": {
       "name": "Български",
@@ -197,37 +405,98 @@
       "hero_title": "Тасос, изумруденият остров",
       "hero_sub": "Борови гори, които слизат до морето, тюркоазена вода, мраморни плажове и каменни села, само на кратко пътуване с ферибот от сушата.",
       "cta": "Планирайте пътуването си",
-      "nav": {"getting": "Как да стигнете", "beaches": "Плажове", "villages": "Села", "sights": "Забележителности", "tips": "Съвети"},
+      "nav": {
+        "getting": "Как да стигнете",
+        "beaches": "Плажове",
+        "villages": "Села",
+        "sights": "Забележителности",
+        "tips": "Съвети"
+      },
       "facts": [
-        ["⛴", "35–40 мин", "с ферибот от Керамоти"],
-        ["☀", "май – септ.", "най-добрият сезон"],
-        ["🏖", "Десетки", "плажове"],
-        ["🍯", "Мед и мрамор", "класиката на острова"]
+        [
+          "⛴",
+          "35–40 мин",
+          "с ферибот от Керамоти"
+        ],
+        [
+          "☀",
+          "май – септ.",
+          "най-добрият сезон"
+        ],
+        [
+          "🏖",
+          "Десетки",
+          "плажове"
+        ],
+        [
+          "🍯",
+          "Мед и мрамор",
+          "класиката на острова"
+        ]
       ],
       "getting_h": "Как да стигнете",
       "getting": [
-        ["Керамоти → Лименас", "Основният и най-бърз маршрут: около 35–40 минути. През лятото на 2026 г. имаше по 38 курса на ден във всяка посока, а през зимата са по-малко. Фериботите превозват и автомобили."],
-        ["Кавала → Скала Принос", "Директно от град Кавала, около 1 час и 15 минути, с няколко курса на ден."],
-        ["Със самолет", "Най-близкото летище е Международно летище Кавала (KVA), близо до Керамоти. Оттам до ферибота се стига бързо с кола или такси."]
+        [
+          "Керамоти → Лименас",
+          "Основният и най-бърз маршрут: около 35–40 минути. През лятото на 2026 г. имаше по 38 курса на ден във всяка посока, а през зимата са по-малко. Фериботите превозват и автомобили."
+        ],
+        [
+          "Кавала → Скала Принос",
+          "Директно от град Кавала, около 1 час и 15 минути, с няколко курса на ден."
+        ],
+        [
+          "Със самолет",
+          "Най-близкото летище е Международно летище Кавала (KVA), близо до Керамоти. Оттам до ферибота се стига бързо с кола или такси."
+        ]
       ],
       "getting_note": "Разписанията и цените се променят според сезона. Винаги проверявайте при фериботните компании преди пътуване.",
       "around_h": "Придвижване по острова",
       "around": "С кола или скутер разглеждате плажовете и планинските села в свое темпо. През лятото автобуси свързват основните села и плажове. Пълна обиколка на планинските села е около 97 км, приблизително 2 часа шофиране.",
       "beaches_h": "Плажове, които не бива да пропускате",
       "beaches": [
-        ["Гиола", "Естествен басейн в скалите до открито море, на южния бряг. Най-известното място за снимки на острова."],
-        ["Мраморният плаж (Салиара)", "Бели мраморни камъчета и изумрудена вода. Стига се по черен път; има шезлонги и бийч бар."],
-        ["Голдън Бийч (Хриси Амудия)", "Над 2 км фин златист пясък и плитка вода на източния бряг. Идеален за семейства."],
-        ["Парадайс Бийч", "Популярен пясъчен плаж сред боровете, с малки вълни."],
-        ["Алики", "Два залива до антична мраморна кариера. Плувате сред колони и руини."]
+        [
+          "Гиола",
+          "Естествен басейн в скалите до открито море, на южния бряг. Най-известното място за снимки на острова."
+        ],
+        [
+          "Мраморният плаж (Салиара)",
+          "Бели мраморни камъчета и изумрудена вода. Стига се по черен път; има шезлонги и бийч бар."
+        ],
+        [
+          "Голдън Бийч (Хриси Амудия)",
+          "Над 2 км фин златист пясък и плитка вода на източния бряг. Идеален за семейства."
+        ],
+        [
+          "Парадайс Бийч",
+          "Популярен пясъчен плаж сред боровете, с малки вълни."
+        ],
+        [
+          "Алики",
+          "Два залива до антична мраморна кариера. Плувате сред колони и руини."
+        ]
       ],
       "villages_h": "Села и забележителности",
       "villages": [
-        ["Лименас", "Столицата и основното пристанище. Разходете се до Античната агора, античния театър на хълма и Археологическия музей."],
-        ["Панагия", "Старата столица, с каменни къщи, течаща вода, чинари и хубави таверни."],
-        ["Казавити", "Най-старото село на острова: две селища, Микро и Мегало, скрити от брега заради пиратите."],
-        ["Теологос", "Каменни къщи, етнографски музей и спокойна планинска атмосфера."],
-        ["Манастир „Архангел Михаил“", "Най-големият манастир на Тасос, кацнал на скала над морето. При посещение облечете се подходящо."]
+        [
+          "Лименас",
+          "Столицата и основното пристанище. Разходете се до Античната агора, античния театър на хълма и Археологическия музей."
+        ],
+        [
+          "Панагия",
+          "Старата столица, с каменни къщи, течаща вода, чинари и хубави таверни."
+        ],
+        [
+          "Казавити",
+          "Най-старото село на острова: две селища, Микро и Мегало, скрити от брега заради пиратите."
+        ],
+        [
+          "Теологос",
+          "Каменни къщи, етнографски музей и спокойна планинска атмосфера."
+        ],
+        [
+          "Манастир „Архангел Михаил“",
+          "Най-големият манастир на Тасос, кацнал на скала над морето. При посещение облечете се подходящо."
+        ]
       ],
       "tips_h": "Добре е да знаете",
       "tips": [
@@ -239,7 +508,13 @@
       "photo_credits": "Снимки",
       "updated_label": "Последна проверка",
       "disclaimer": "Информацията се проверява редовно, но може да се промени. Потвърждавайте разписанията и работното време на място.",
-      "lang_label": "Език"
+      "lang_label": "Език",
+      "guides_h": "Подробни пътеводители",
+      "read": "Прочетете пътеводителя",
+      "sources": "Източници",
+      "back": "Целият Тасос",
+      "tips_box": "Преди да тръгнете",
+      "updated": "Обновено"
     },
     "de": {
       "name": "Deutsch",
@@ -250,37 +525,98 @@
       "hero_title": "Thassos, die Smaragdinsel",
       "hero_sub": "Pinienwälder bis ans Meer, türkisblaues Wasser, Marmorstrände und Steindörfer, nur eine kurze Fährfahrt vom Festland entfernt.",
       "cta": "Reise planen",
-      "nav": {"getting": "Anreise", "beaches": "Strände", "villages": "Dörfer", "sights": "Sehenswertes", "tips": "Tipps"},
+      "nav": {
+        "getting": "Anreise",
+        "beaches": "Strände",
+        "villages": "Dörfer",
+        "sights": "Sehenswertes",
+        "tips": "Tipps"
+      },
       "facts": [
-        ["⛴", "35–40 Min.", "Fähre ab Keramoti"],
-        ["☀", "Mai – Sep.", "beste Reisezeit"],
-        ["🏖", "Dutzende", "Strände"],
-        ["🍯", "Honig & Marmor", "Klassiker der Insel"]
+        [
+          "⛴",
+          "35–40 Min.",
+          "Fähre ab Keramoti"
+        ],
+        [
+          "☀",
+          "Mai – Sep.",
+          "beste Reisezeit"
+        ],
+        [
+          "🏖",
+          "Dutzende",
+          "Strände"
+        ],
+        [
+          "🍯",
+          "Honig & Marmor",
+          "Klassiker der Insel"
+        ]
       ],
       "getting_h": "Anreise",
       "getting": [
-        ["Keramoti → Limenas", "Die wichtigste und schnellste Verbindung: etwa 35–40 Minuten. Im Sommer 2026 gab es 38 Fahrten pro Tag in jede Richtung, im Winter weniger. Autofähren, das Auto kann also mit."],
-        ["Kavala → Skala Prinos", "Direkt ab der Stadt Kavala, etwa 1 Stunde 15 Minuten, mit wenigen Abfahrten pro Tag."],
-        ["Mit dem Flugzeug", "Der nächste Flughafen ist Kavala International (KVA) nahe Keramoti. Von dort ist es nur eine kurze Fahrt mit Auto oder Taxi zur Fähre."]
+        [
+          "Keramoti → Limenas",
+          "Die wichtigste und schnellste Verbindung: etwa 35–40 Minuten. Im Sommer 2026 gab es 38 Fahrten pro Tag in jede Richtung, im Winter weniger. Autofähren, das Auto kann also mit."
+        ],
+        [
+          "Kavala → Skala Prinos",
+          "Direkt ab der Stadt Kavala, etwa 1 Stunde 15 Minuten, mit wenigen Abfahrten pro Tag."
+        ],
+        [
+          "Mit dem Flugzeug",
+          "Der nächste Flughafen ist Kavala International (KVA) nahe Keramoti. Von dort ist es nur eine kurze Fahrt mit Auto oder Taxi zur Fähre."
+        ]
       ],
       "getting_note": "Fahrpläne und Preise ändern sich je nach Saison. Bitte vor der Reise immer bei den Fährgesellschaften prüfen.",
       "around_h": "Unterwegs auf der Insel",
       "around": "Mit Auto oder Roller erkunden Sie Strände und Bergdörfer in Ihrem eigenen Tempo. Im Sommer verbinden Busse die wichtigsten Dörfer und Strände. Eine Rundfahrt durch alle Bergdörfer ist etwa 97 km lang, rund 2 Stunden Fahrzeit.",
       "beaches_h": "Strände, die Sie nicht verpassen sollten",
       "beaches": [
-        ["Giola", "Ein natürlicher Felspool direkt am offenen Meer an der Südküste. Das bekannteste Fotomotiv der Insel."],
-        ["Marmorstrand (Saliara)", "Weiße Marmorkiesel und smaragdgrünes Wasser. Über eine Schotterstraße erreichbar, mit Liegen und Strandbar."],
-        ["Golden Beach (Chrysi Ammoudia)", "Über 2 km feiner goldener Sand und flaches Wasser an der Ostküste. Ideal für Familien."],
-        ["Paradise Beach", "Ein beliebter Sandstrand zwischen Pinien, mit kleinen Wellen."],
-        ["Aliki", "Zwei Buchten neben einem antiken Marmorsteinbruch. Baden zwischen Säulen und Ruinen."]
+        [
+          "Giola",
+          "Ein natürlicher Felspool direkt am offenen Meer an der Südküste. Das bekannteste Fotomotiv der Insel."
+        ],
+        [
+          "Marmorstrand (Saliara)",
+          "Weiße Marmorkiesel und smaragdgrünes Wasser. Über eine Schotterstraße erreichbar, mit Liegen und Strandbar."
+        ],
+        [
+          "Golden Beach (Chrysi Ammoudia)",
+          "Über 2 km feiner goldener Sand und flaches Wasser an der Ostküste. Ideal für Familien."
+        ],
+        [
+          "Paradise Beach",
+          "Ein beliebter Sandstrand zwischen Pinien, mit kleinen Wellen."
+        ],
+        [
+          "Aliki",
+          "Zwei Buchten neben einem antiken Marmorsteinbruch. Baden zwischen Säulen und Ruinen."
+        ]
       ],
       "villages_h": "Dörfer & Sehenswürdigkeiten",
       "villages": [
-        ["Limenas", "Hauptort und wichtigster Hafen. Zu Fuß zur antiken Agora, zum antiken Theater auf dem Hügel und zum Archäologischen Museum."],
-        ["Panagia", "Die alte Hauptstadt, mit Steinvillen, fließendem Wasser, Platanen und guten Tavernen."],
-        ["Kazaviti", "Das älteste Dorf der Insel: zwei Siedlungen, Mikro und Megalo, zum Schutz vor Piraten von der Küste aus verborgen."],
-        ["Theologos", "Steinhäuser, ein Volkskundemuseum und ruhige Bergatmosphäre."],
-        ["Kloster des Erzengels Michael", "Das größte Kloster auf Thassos, auf einer Klippe hoch über dem Meer. Bitte angemessene Kleidung tragen."]
+        [
+          "Limenas",
+          "Hauptort und wichtigster Hafen. Zu Fuß zur antiken Agora, zum antiken Theater auf dem Hügel und zum Archäologischen Museum."
+        ],
+        [
+          "Panagia",
+          "Die alte Hauptstadt, mit Steinvillen, fließendem Wasser, Platanen und guten Tavernen."
+        ],
+        [
+          "Kazaviti",
+          "Das älteste Dorf der Insel: zwei Siedlungen, Mikro und Megalo, zum Schutz vor Piraten von der Küste aus verborgen."
+        ],
+        [
+          "Theologos",
+          "Steinhäuser, ein Volkskundemuseum und ruhige Bergatmosphäre."
+        ],
+        [
+          "Kloster des Erzengels Michael",
+          "Das größte Kloster auf Thassos, auf einer Klippe hoch über dem Meer. Bitte angemessene Kleidung tragen."
+        ]
       ],
       "tips_h": "Gut zu wissen",
       "tips": [
@@ -292,7 +628,13 @@
       "photo_credits": "Bildnachweise",
       "updated_label": "Zuletzt geprüft",
       "disclaimer": "Die Informationen werden regelmäßig geprüft, können sich aber ändern. Bitte Fahrpläne und Öffnungszeiten vor Ort bestätigen.",
-      "lang_label": "Sprache"
+      "lang_label": "Sprache",
+      "guides_h": "Ausführliche Ratgeber",
+      "read": "Zum Ratgeber",
+      "sources": "Quellen",
+      "back": "Ganz Thassos",
+      "tips_box": "Bevor Sie losfahren",
+      "updated": "Aktualisiert"
     },
     "tr": {
       "name": "Türkçe",
@@ -303,37 +645,98 @@
       "hero_title": "Taşoz, zümrüt ada",
       "hero_sub": "Denize kadar inen çam ormanları, turkuaz su, mermer plajlar ve taş köyler, karadan kısa bir feribot yolculuğu uzaklıkta.",
       "cta": "Seyahatinizi planlayın",
-      "nav": {"getting": "Ulaşım", "beaches": "Plajlar", "villages": "Köyler", "sights": "Görülecek yerler", "tips": "İpuçları"},
+      "nav": {
+        "getting": "Ulaşım",
+        "beaches": "Plajlar",
+        "villages": "Köyler",
+        "sights": "Görülecek yerler",
+        "tips": "İpuçları"
+      },
       "facts": [
-        ["⛴", "35–40 dk", "Keramoti'den feribot"],
-        ["☀", "Mayıs – Eylül", "en iyi sezon"],
-        ["🏖", "Onlarca", "plaj"],
-        ["🍯", "Bal ve mermer", "adanın klasikleri"]
+        [
+          "⛴",
+          "35–40 dk",
+          "Keramoti'den feribot"
+        ],
+        [
+          "☀",
+          "Mayıs – Eylül",
+          "en iyi sezon"
+        ],
+        [
+          "🏖",
+          "Onlarca",
+          "plaj"
+        ],
+        [
+          "🍯",
+          "Bal ve mermer",
+          "adanın klasikleri"
+        ]
       ],
       "getting_h": "Ulaşım",
       "getting": [
-        ["Keramoti → Limenas", "Ana ve en hızlı hat: yaklaşık 35–40 dakika. 2026 yazında her yönde günde 38 sefer vardı, kışın daha azdır. Araba vapuru olduğu için aracınızı da götürebilirsiniz."],
-        ["Kavala → Skala Prinos", "Doğrudan Kavala şehrinden, yaklaşık 1 saat 15 dakika, günde birkaç sefer."],
-        ["Uçakla", "En yakın havalimanı Keramoti yakınındaki Kavala Uluslararası Havalimanı'dır (KVA). Oradan feribota araba veya taksiyle kısa bir yol."]
+        [
+          "Keramoti → Limenas",
+          "Ana ve en hızlı hat: yaklaşık 35–40 dakika. 2026 yazında her yönde günde 38 sefer vardı, kışın daha azdır. Araba vapuru olduğu için aracınızı da götürebilirsiniz."
+        ],
+        [
+          "Kavala → Skala Prinos",
+          "Doğrudan Kavala şehrinden, yaklaşık 1 saat 15 dakika, günde birkaç sefer."
+        ],
+        [
+          "Uçakla",
+          "En yakın havalimanı Keramoti yakınındaki Kavala Uluslararası Havalimanı'dır (KVA). Oradan feribota araba veya taksiyle kısa bir yol."
+        ]
       ],
       "getting_note": "Sefer saatleri ve fiyatlar sezona göre değişir. Yolculuktan önce mutlaka feribot şirketlerinden kontrol edin.",
       "around_h": "Adada ulaşım",
       "around": "Araba veya scooter ile plajları ve dağ köylerini kendi temponuzda gezebilirsiniz. Yazın otobüsler ana köyleri ve plajları birbirine bağlar. Tüm dağ köylerinin turu yaklaşık 97 km, aşağı yukarı 2 saatlik sürüştür.",
       "beaches_h": "Kaçırılmaması gereken plajlar",
       "beaches": [
-        ["Giola", "Güney kıyısında, açık denizin hemen yanında kayalar arasında doğal bir havuz. Adanın en ünlü fotoğraf noktası."],
-        ["Mermer Plajı (Saliara)", "Beyaz mermer çakıllar ve zümrüt yeşili su. Toprak yoldan ulaşılır; şezlong ve plaj barı vardır."],
-        ["Golden Beach (Chrysi Ammoudia)", "Doğu kıyısında 2 km'yi aşan ince altın kum ve sığ su. Aileler için ideal."],
-        ["Paradise Beach", "Çamlarla çevrili, küçük dalgalı, çok sevilen bir kum plajı."],
-        ["Aliki", "Antik bir mermer ocağının yanında iki koy. Sütunlar ve kalıntılar arasında yüzersiniz."]
+        [
+          "Giola",
+          "Güney kıyısında, açık denizin hemen yanında kayalar arasında doğal bir havuz. Adanın en ünlü fotoğraf noktası."
+        ],
+        [
+          "Mermer Plajı (Saliara)",
+          "Beyaz mermer çakıllar ve zümrüt yeşili su. Toprak yoldan ulaşılır; şezlong ve plaj barı vardır."
+        ],
+        [
+          "Golden Beach (Chrysi Ammoudia)",
+          "Doğu kıyısında 2 km'yi aşan ince altın kum ve sığ su. Aileler için ideal."
+        ],
+        [
+          "Paradise Beach",
+          "Çamlarla çevrili, küçük dalgalı, çok sevilen bir kum plajı."
+        ],
+        [
+          "Aliki",
+          "Antik bir mermer ocağının yanında iki koy. Sütunlar ve kalıntılar arasında yüzersiniz."
+        ]
       ],
       "villages_h": "Köyler ve görülecek yerler",
       "villages": [
-        ["Limenas", "Başkent ve ana liman. Antik Agora'ya, tepedeki antik tiyatroya ve Arkeoloji Müzesi'ne yürüyerek gidebilirsiniz."],
-        ["Panagia", "Eski başkent; taş konaklar, akan sular, çınarlar ve güzel tavernalar."],
-        ["Kazaviti", "Adanın en eski köyü: Mikro ve Megalo adlı iki yerleşim, korsanlardan korunmak için kıyıdan gizlenmiş."],
-        ["Theologos", "Taş evler, bir halk sanatları müzesi ve sakin bir dağ havası."],
-        ["Başmelek Mikail Manastırı", "Taşoz'un en büyük manastırı, denizin üzerindeki bir uçurumda. Ziyarette kapalı ve özenli giyinin."]
+        [
+          "Limenas",
+          "Başkent ve ana liman. Antik Agora'ya, tepedeki antik tiyatroya ve Arkeoloji Müzesi'ne yürüyerek gidebilirsiniz."
+        ],
+        [
+          "Panagia",
+          "Eski başkent; taş konaklar, akan sular, çınarlar ve güzel tavernalar."
+        ],
+        [
+          "Kazaviti",
+          "Adanın en eski köyü: Mikro ve Megalo adlı iki yerleşim, korsanlardan korunmak için kıyıdan gizlenmiş."
+        ],
+        [
+          "Theologos",
+          "Taş evler, bir halk sanatları müzesi ve sakin bir dağ havası."
+        ],
+        [
+          "Başmelek Mikail Manastırı",
+          "Taşoz'un en büyük manastırı, denizin üzerindeki bir uçurumda. Ziyarette kapalı ve özenli giyinin."
+        ]
       ],
       "tips_h": "Bilmekte fayda var",
       "tips": [
@@ -345,7 +748,210 @@
       "photo_credits": "Fotoğraflar",
       "updated_label": "Son kontrol",
       "disclaimer": "Bilgiler düzenli olarak kontrol edilir ancak değişebilir. Sefer saatlerini ve açılış saatlerini lütfen yerinde teyit edin.",
-      "lang_label": "Dil"
+      "lang_label": "Dil",
+      "guides_h": "Ayrıntılı rehberler",
+      "read": "Rehberi okuyun",
+      "sources": "Kaynaklar",
+      "back": "Tüm Taşoz",
+      "tips_box": "Gitmeden önce",
+      "updated": "Güncellendi"
     }
-  }
+  },
+  "guides": [
+    {
+      "slug": "giola",
+      "photo": "giola",
+      "updated": "2026-11-18",
+      "sources": [
+        {
+          "name": "Greeka",
+          "url": "https://greeka.com/eastern-aegean/thassos/beaches/giola-lagoon"
+        },
+        {
+          "name": "travel.gr",
+          "url": "https://www.travel.gr/en/experiences-ee/travel-en/giola-the-geological-charm-on-the-coast-of-thasos/"
+        },
+        {
+          "name": "FeelGreece",
+          "url": "https://www.feelgreece.com/en/giola"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "title": "Giola, Thassos: how to get to the natural rock pool (2026 guide)",
+          "description": "Everything you need for Giola, the natural sea pool near Astris on Thassos: directions, parking, the walk, what to bring, best time and safety tips.",
+          "h1": "Giola: the natural rock pool of Thassos",
+          "intro": "Giola, nicknamed “Aphrodite’s Tear”, is a natural sea pool carved into the rocks near the village of Astris, on the south coast of Thassos. It’s roughly 20 × 15 metres, separated from the open sea by a narrow rock wall, with views across the Aegean as far as Mount Athos.",
+          "sections": [
+            [
+              "How to get there",
+              "Drive the coastal road to Astris. Shortly after the village, follow the signs for Giola onto the side road that leads down to the parking area. Parts of this road have long been rough, so drive slowly. A car with good ground clearance makes it easier."
+            ],
+            [
+              "The walk",
+              "From the parking area a marked path, with arrows painted on the rocks, leads down to the pool in about 10–20 minutes. It’s rocky and steep in places, and the way back up is the harder part."
+            ],
+            [
+              "Facilities",
+              "There are no sunbeds, umbrellas or sand: just rocks. A small taverna and canteen near the path sell food and drinks."
+            ],
+            [
+              "When to go",
+              "In July and August it gets crowded by late morning. Go early, or late in the afternoon. Some boat trips around the island also stop here, but usually only for 15–20 minutes."
+            ]
+          ],
+          "tips": [
+            "Wear sturdy shoes for the path and water shoes for the rocks.",
+            "Bring water, sunscreen and some shade: there's little of it.",
+            "Don’t swim or jump from the rocks when the sea is rough. Waves can break over the wall into the pool."
+          ]
+        },
+        "el": {
+          "title": "Γιόλα Θάσου: πώς θα πάτε στη φυσική πισίνα (οδηγός 2026)",
+          "description": "Όλα όσα χρειάζεστε για τη Γιόλα, τη φυσική θαλάσσια πισίνα κοντά στην Αστρίδα της Θάσου: διαδρομή, πάρκινγκ, μονοπάτι, τι να πάρετε μαζί σας, πότε να πάτε και συμβουλές ασφαλείας.",
+          "h1": "Γιόλα: η φυσική πισίνα της Θάσου",
+          "intro": "Η Γιόλα, γνωστή και ως «Δάκρυ της Αφροδίτης», είναι μια φυσική θαλάσσια πισίνα σκαμμένη στα βράχια κοντά στο χωριό Αστρίδα, στη νότια ακτή της Θάσου. Έχει διαστάσεις περίπου 20 × 15 μέτρα και τη χωρίζει από το ανοιχτό πέλαγος ένα στενό βραχώδες τοίχωμα. Από εκεί η θέα ανοίγεται στο Αιγαίο, ως το Άγιο Όρος.",
+          "sections": [
+            [
+              "Πώς θα πάτε",
+              "Ακολουθήστε τον παραλιακό δρόμο ως την Αστρίδα. Λίγο μετά το χωριό, ακολουθήστε τις πινακίδες για τη Γιόλα στον πλαϊνό δρόμο που κατεβαίνει στο πάρκινγκ. Τμήματα του δρόμου ήταν πάντα δύσβατα, οπότε οδηγήστε αργά. Ένα αυτοκίνητο με ψηλή απόσταση από το έδαφος βοηθάει."
+            ],
+            [
+              "Το μονοπάτι",
+              "Από το πάρκινγκ ένα σημαδεμένο μονοπάτι, με βέλη ζωγραφισμένα στα βράχια, κατεβαίνει στην πισίνα σε περίπου 10–20 λεπτά. Είναι πετρώδες και σε σημεία απότομο, και το πιο κουραστικό είναι η επιστροφή."
+            ],
+            [
+              "Παροχές",
+              "Δεν υπάρχουν ξαπλώστρες, ομπρέλες ή άμμος, μόνο βράχια. Μια μικρή ταβέρνα και μια καντίνα κοντά στο μονοπάτι προσφέρουν φαγητό και ποτά."
+            ],
+            [
+              "Πότε να πάτε",
+              "Τον Ιούλιο και τον Αύγουστο γεμίζει από τις μεσημεριανές ώρες. Πηγαίνετε νωρίς το πρωί ή αργά το απόγευμα. Κάποιες κρουαζιέρες γύρω από το νησί σταματούν επίσης εδώ, συνήθως όμως μόνο για 15–20 λεπτά."
+            ]
+          ],
+          "tips": [
+            "Φορέστε γερά παπούτσια για το μονοπάτι και παπούτσια θαλάσσης για τα βράχια.",
+            "Πάρτε νερό, αντηλιακό και κάτι για σκιά, γιατί σκιά δεν υπάρχει σχεδόν καθόλου.",
+            "Μην κολυμπάτε και μη βουτάτε από τα βράχια όταν έχει κύμα. Τα κύματα μπορεί να περάσουν το τοίχωμα και να μπουν στην πισίνα."
+          ]
+        },
+        "ro": {
+          "title": "Giola, Thassos: cum ajungi la piscina naturală (ghid 2026)",
+          "description": "Tot ce trebuie să știi despre Giola, piscina naturală de lângă Astris, Thassos: traseu, parcare, poteca, ce să iei cu tine, când să mergi și sfaturi de siguranță.",
+          "h1": "Giola: piscina naturală din Thassos",
+          "intro": "Giola, supranumită „Lacrima Afroditei”, este o piscină naturală cu apă de mare săpată în stânci lângă satul Astris, pe coasta de sud a insulei Thassos. Are aproximativ 20 × 15 metri și este despărțită de larg printr-un zid îngust de stâncă, cu priveliște peste Marea Egee până la Muntele Athos.",
+          "sections": [
+            [
+              "Cum ajungi",
+              "Mergi pe drumul de coastă până la Astris. La scurt timp după sat, urmează indicatoarele spre Giola pe drumul lateral care coboară la parcare. Porțiuni din acest drum au fost mereu dificile, așa că mergi încet. O mașină cu gardă la sol mai mare ajută."
+            ],
+            [
+              "Poteca",
+              "Din parcare, o potecă marcată cu săgeți pictate pe stânci coboară la piscină în aproximativ 10–20 de minute. Este stâncoasă și pe alocuri abruptă, iar urcarea la întoarcere e partea cea mai grea."
+            ],
+            [
+              "Facilități",
+              "Nu există șezlonguri, umbrele sau nisip, doar stânci. O tavernă mică și o cantină lângă potecă oferă mâncare și băuturi."
+            ],
+            [
+              "Când să mergi",
+              "În iulie și august se aglomerează până la prânz. Mergi devreme dimineața sau seara spre apus. Și unele excursii cu barca în jurul insulei opresc aici, dar de obicei doar 15–20 de minute."
+            ]
+          ],
+          "tips": [
+            "Poartă încălțăminte solidă pentru potecă și papuci de apă pentru stânci.",
+            "Ia apă, cremă de soare și ceva pentru umbră, pentru că umbră aproape nu există.",
+            "Nu înota și nu sări de pe stânci când marea este agitată. Valurile pot trece peste zid în piscină."
+          ]
+        },
+        "bg": {
+          "title": "Гиола, Тасос: как да стигнете до естествения басейн (пътеводител 2026)",
+          "description": "Всичко за Гиола, естествения морски басейн край Астрис на Тасос: маршрут, паркинг, пътеката, какво да вземете, кога да отидете и съвети за безопасност.",
+          "h1": "Гиола: естественият басейн на Тасос",
+          "intro": "Гиола, наричана още „Сълзата на Афродита“, е естествен морски басейн, издълбан в скалите край село Астрис, на южния бряг на Тасос. Размерите му са около 20 × 15 метра, а от откритото море го дели тясна скална стена. Гледката е към Егейско море, чак до Света гора (Атон).",
+          "sections": [
+            [
+              "Как да стигнете",
+              "Карайте по крайбрежния път до Астрис. Малко след селото следвайте табелите за Гиола по страничния път, който слиза до паркинга. Части от пътя винаги са били лоши, затова карайте бавно. Кола с по-висок клиренс е предимство."
+            ],
+            [
+              "Пътеката",
+              "От паркинга маркирана пътека със стрелки, нарисувани по скалите, слиза до басейна за около 10–20 минути. Тя е камениста и на места стръмна, а най-трудното е връщането нагоре."
+            ],
+            [
+              "Удобства",
+              "Няма шезлонги, чадъри или пясък, само скали. Малка таверна и павилион край пътеката предлагат храна и напитки."
+            ],
+            [
+              "Кога да отидете",
+              "През юли и август става многолюдно още преди обяд. Отидете рано сутрин или късно следобед. Някои морски разходки около острова също спират тук, но обикновено само за 15–20 минути."
+            ]
+          ],
+          "tips": [
+            "Обуйте здрави обувки за пътеката и аква обувки за скалите.",
+            "Вземете вода, слънцезащитен крем и нещо за сянка, защото сянка почти няма.",
+            "Не плувайте и не скачайте от скалите при вълнение. Вълните могат да прехвърлят стената и да влязат в басейна."
+          ]
+        },
+        "de": {
+          "title": "Giola, Thassos: Anfahrt zum natürlichen Felsenpool (Ratgeber 2026)",
+          "description": "Alles für Ihren Besuch in Giola, dem natürlichen Meerwasserpool bei Astris auf Thassos: Anfahrt, Parken, der Fußweg, was Sie mitnehmen sollten, beste Zeit und Sicherheitstipps.",
+          "h1": "Giola: der natürliche Felsenpool von Thassos",
+          "intro": "Giola, auch „Träne der Aphrodite“ genannt, ist ein natürlicher Meerwasserpool in den Felsen nahe dem Dorf Astris an der Südküste von Thassos. Er ist etwa 20 × 15 Meter groß und durch eine schmale Felswand vom offenen Meer getrennt, mit Blick über die Ägäis bis zum Berg Athos.",
+          "sections": [
+            [
+              "Anfahrt",
+              "Fahren Sie auf der Küstenstraße nach Astris. Kurz hinter dem Dorf folgen Sie den Schildern nach Giola auf die Nebenstraße, die zum Parkplatz hinunterführt. Teile dieser Straße waren schon immer holprig, also langsam fahren. Ein Auto mit mehr Bodenfreiheit ist von Vorteil."
+            ],
+            [
+              "Der Fußweg",
+              "Vom Parkplatz führt ein markierter Pfad mit aufgemalten Pfeilen auf den Felsen in etwa 10–20 Minuten hinunter zum Pool. Er ist steinig und stellenweise steil, und der Rückweg nach oben ist der anstrengendere Teil."
+            ],
+            [
+              "Ausstattung",
+              "Es gibt keine Liegen, Schirme oder Sand, nur Felsen. Eine kleine Taverne und ein Kiosk am Weg bieten Essen und Getränke."
+            ],
+            [
+              "Beste Zeit",
+              "Im Juli und August wird es bis zum späten Vormittag voll. Kommen Sie früh am Morgen oder am späten Nachmittag. Auch manche Bootstouren um die Insel halten hier, meist aber nur 15–20 Minuten."
+            ]
+          ],
+          "tips": [
+            "Feste Schuhe für den Pfad und Badeschuhe für die Felsen tragen.",
+            "Wasser, Sonnencreme und etwas Schatten mitbringen, denn Schatten gibt es kaum.",
+            "Bei Wellengang nicht schwimmen und nicht von den Felsen springen. Wellen können über die Felswand in den Pool schlagen."
+          ]
+        },
+        "tr": {
+          "title": "Giola, Taşoz: doğal kaya havuzuna nasıl gidilir (2026 rehberi)",
+          "description": "Taşoz'da Astris yakınındaki doğal deniz havuzu Giola hakkında her şey: yol tarifi, otopark, yürüyüş yolu, yanınıza alacaklarınız, en iyi zaman ve güvenlik ipuçları.",
+          "h1": "Giola: Taşoz'un doğal kaya havuzu",
+          "intro": "“Afrodit’in Gözyaşı” olarak da bilinen Giola, Taşoz’un güney kıyısında, Astris köyü yakınında kayalara oyulmuş doğal bir deniz havuzudur. Yaklaşık 20 × 15 metre büyüklüğündedir ve açık denizden ince bir kaya duvarla ayrılır. Ege üzerinden Athos Dağı’na kadar uzanan bir manzarası vardır.",
+          "sections": [
+            [
+              "Nasıl gidilir",
+              "Sahil yolundan Astris’e gidin. Köyü geçtikten kısa süre sonra, Giola tabelalarını izleyerek otoparka inen yan yola sapın. Bu yolun bazı bölümleri öteden beri bozuktur, yavaş sürün. Yerden yüksekliği fazla olan bir araç işinizi kolaylaştırır."
+            ],
+            [
+              "Yürüyüş yolu",
+              "Otoparktan, kayalara boyanmış oklarla işaretli bir patika yaklaşık 10–20 dakikada havuza iner. Yol taşlık ve yer yer diktir; asıl zor kısım dönüşteki çıkıştır."
+            ],
+            [
+              "Olanaklar",
+              "Şezlong, şemsiye veya kum yoktur, sadece kayalar vardır. Patikanın yakınındaki küçük bir taverna ve büfede yiyecek ve içecek bulunur."
+            ],
+            [
+              "Ne zaman gidilir",
+              "Temmuz ve ağustosta öğleye doğru kalabalıklaşır. Sabah erken ya da öğleden sonra geç saatlerde gidin. Ada çevresindeki bazı tekne turları da burada durur, ancak genellikle sadece 15–20 dakika."
+            ]
+          ],
+          "tips": [
+            "Patika için sağlam ayakkabı, kayalar için deniz ayakkabısı giyin.",
+            "Yanınıza su, güneş kremi ve gölgelik bir şey alın; gölge neredeyse hiç yok.",
+            "Deniz dalgalıyken yüzmeyin ve kayalardan atlamayın. Dalgalar duvarı aşıp havuza girebilir."
+          ]
+        }
+      }
+    }
+  ]
 }
