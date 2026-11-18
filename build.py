@@ -10,8 +10,14 @@ SITE, LANGS, P = C["site"], C["languages"], C["photos"]
 e = lambda s: html.escape(str(s), quote=True)
 
 
+UTM = "?utm_source=thassos_guide&utm_medium=referral"
+
+
 def img(key, w=1600):
-    return f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(P[key]['file'])}?width={w}"
+    p = P[key]
+    if p.get("src"):  # Unsplash (hotlink, όπως ζητούν οι κανόνες του Unsplash)
+        return f"{p['src']}&w={w}&auto=format&fit=crop&q=80"
+    return f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(p['file'])}?width={w}"
 
 
 def url(lang):
@@ -130,12 +136,19 @@ footer ul{list-style:none;display:grid;gap:6px}
 
 def credit(key):
     p = P[key]
+    if p.get("src"):
+        return (f'Photo by <a href="{e(p["author_url"])}{UTM}" target="_blank" rel="noopener">{e(p["author"])}</a> on '
+                f'<a href="https://unsplash.com/{UTM}" target="_blank" rel="noopener">Unsplash</a>'
+                f' · <a href="{e(p["page"])}{UTM}" target="_blank" rel="noopener">{e(p.get("alt") or "photo")}</a>')
     lic = f'<a href="{e(p["license_url"])}" target="_blank" rel="noopener">{e(p["license"])}</a>' if p["license_url"] else e(p["license"])
     return (f'<a href="https://commons.wikimedia.org/wiki/File:{quote(p["file"])}" target="_blank" rel="noopener">{e(p["file"].rsplit(".",1)[0].replace("_"," "))}</a>'
             f' · {e(p["author"])} · {lic} · Wikimedia Commons')
 
 
 def short_credit(key):
+    p = P[key]
+    if p.get("src"):
+        return f'Photo: {e(p["author"])} / Unsplash'
     p = P[key]
     return f'Photo: {e(p["author"])} / Wikimedia Commons, {e(p["license"])}'
 
@@ -243,7 +256,7 @@ def page(lang):
 <link rel="canonical" href="{url(lang)}">
 {alts}
 <meta property="og:type" content="website"><meta property="og:title" content="{e(t['title'])}">
-<meta property="og:description" content="{e(t['description'])}"><meta property="og:image" content="{img('giola', 1200)}">
+<meta property="og:description" content="{e(t['description'])}"><meta property="og:image" content="{img('sunrise', 1200)}">
 <meta property="og:url" content="{url(lang)}"><meta property="og:locale" content="{lang}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230f8b6f'/%3E%3Cpath d='M10 40c8-6 14-6 22 0s14 6 22 0' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>{CSS}</style>
@@ -256,14 +269,14 @@ def page(lang):
   <label class="langsel" aria-label="{e(t['lang_label'])}"><select onchange="location.href=this.value">{opts}</select></label>
 </div></header>
 
-<section class="hero" style="--hero:url('{img('giola')}')">
+<section class="hero" style="--hero:url('{img('sunrise', 2000)}')">
   <div class="wrap">
     <span class="kicker">{e(t['hero_kicker'])}</span>
     <h1>{e(t['hero_title'])}</h1>
     <p>{e(t['hero_sub'])}</p>
     <a class="btn" href="#getting">{e(t['cta'])} →</a>
   </div>
-  <div class="credit">Giola · {short_credit('giola')}</div>
+  <div class="credit">{short_credit('sunrise')}</div>
 </section>
 
 <div class="wrap"><div class="facts">{facts}</div></div>
@@ -274,7 +287,7 @@ def page(lang):
   <p class="note">{e(t['getting_note'])}</p>
   <div class="around">
     <div><h3>{e(t['around_h'])}</h3><p>{e(t['around'])}</p></div>
-    <figure><img loading="lazy" src="{img('olives', 1200)}" alt="Olive trees on Thassos"><figcaption>{short_credit('olives')}</figcaption></figure>
+    <figure><img loading="lazy" src="{img('village', 1200)}" alt="Mountain village on Thassos"><figcaption>{short_credit('village')}</figcaption></figure>
   </div>
 </div></section>
 
@@ -287,7 +300,7 @@ def page(lang):
   <div class="sh"><h2>{e(t['villages_h'])}</h2></div>
   <div class="vgrid">
     <ul class="vlist">{vill}</ul>
-    <figure><img loading="lazy" src="{img('limenas', 1024)}" alt="Limenas, Thassos"><figcaption>Limenas · {short_credit('limenas')}</figcaption></figure>
+    <figure><img loading="lazy" src="{img('theologos', 1200)}" alt="Theologos village, Thassos"><figcaption>Theologos · {short_credit('theologos')}</figcaption></figure>
   </div>
 </div></section>
 
@@ -295,8 +308,8 @@ def page(lang):
 <section id="tips"><div class="wrap">
   <div class="sh"><h2>{e(t['tips_h'])}</h2></div>
   <ul class="tips">{tips}</ul>
-  <figure class="space"><img loading="lazy" src="{img('space', 1600)}" alt="Thassos from space"></figure>
-  <figcaption>{short_credit('space')}</figcaption>
+  <figure class="space"><img loading="lazy" src="{img('beach_aerial', 1800)}" alt="Aerial view of a beach on Thassos"></figure>
+  <figcaption>{short_credit('beach_aerial')}</figcaption>
 </div></section>
 
 <footer><div class="wrap cols">
