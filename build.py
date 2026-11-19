@@ -8,6 +8,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 C = json.load(open(os.path.join(ROOT, "content.json"), encoding="utf-8"))
 SITE, LANGS, P = C["site"], C["languages"], C["photos"]
 e = lambda s: html.escape(str(s), quote=True)
+# Κωδικός γλώσσας για το Google (hreflang / lang): τα σερβικά είναι σε λατινικό αλφάβητο
+HL = {"sr": "sr-Latn"}
+hl = lambda l: HL.get(l, l)
 
 
 UTM = "?utm_source=thassos_guide&utm_medium=referral"
@@ -113,7 +116,9 @@ footer .cols{display:grid;grid-template-columns:1fr 1fr;gap:30px}
 @media(max-width:760px){footer .cols{grid-template-columns:1fr}}
 footer h4{color:#fff;font-family:Georgia,serif;font-size:1.05rem;margin-bottom:10px}
 footer ul{list-style:none;display:grid;gap:6px}
-.langs a{margin-right:12px;color:#c9d6dd}
+.langs{display:flex;flex-wrap:wrap;gap:6px 14px}.langs a{color:#c9d6dd}
+footer li,footer p{overflow-wrap:anywhere}
+footer .cols>div{min-width:0}
 .glist{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
 .gcard{display:block;text-decoration:none;color:var(--ink);background:#fff;border:1px solid #e8e2d6;border-radius:18px;overflow:hidden;transition:.2s}
 .gcard:hover{transform:translateY(-3px);box-shadow:0 14px 40px -18px #062a3a55}
@@ -155,7 +160,7 @@ def short_credit(key):
 
 def head(lang, title, desc, canon, alts, ogimg):
     return f"""<!DOCTYPE html>
-<html lang="{lang}">
+<html lang="{hl(lang)}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -166,7 +171,7 @@ def head(lang, title, desc, canon, alts, ogimg):
 {alts}
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}"><meta property="og:image" content="{ogimg}">
-<meta property="og:url" content="{canon}"><meta property="og:locale" content="{lang}">
+<meta property="og:url" content="{canon}"><meta property="og:locale" content="{hl(lang)}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230f8b6f'/%3E%3Cpath d='M10 40c8-6 14-6 22 0s14 6 22 0' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>{CSS}</style>"""
 
@@ -199,9 +204,9 @@ def footer(lang):
 
 def guide_page(lang, g):
     t, gt = C["i18n"][lang], g["i18n"][lang]
-    alts = "".join(f'<link rel="alternate" hreflang="{l}" href="{gurl(l, g["slug"])}">' for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{gurl("en", g["slug"])}">'
+    alts = "".join(f'<link rel="alternate" hreflang="{hl(l)}" href="{gurl(l, g["slug"])}">' for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{gurl("en", g["slug"])}">'
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": gt["h1"], "description": gt["description"],
-          "inLanguage": lang, "dateModified": g["updated"], "image": img(g["photo"], 1200), "mainEntityOfPage": gurl(lang, g["slug"])}
+          "inLanguage": hl(lang), "dateModified": g["updated"], "image": img(g["photo"], 1200), "mainEntityOfPage": gurl(lang, g["slug"])}
     secs = "".join(f"<h2>{e(h)}</h2><p>{e(p)}</p>" for h, p in gt["sections"])
     tips = "".join(f"<li>{e(x)}</li>" for x in gt["tips"])
     srcs = " ".join(f'<a href="{e(s["url"])}" target="_blank" rel="noopener">{e(s["name"])}</a>' for s in g["sources"])
@@ -234,7 +239,7 @@ def guides_html(lang):
 
 def page(lang):
     t = C["i18n"][lang]
-    alts = "".join(f'<link rel="alternate" hreflang="{l}" href="{url(l)}">' for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{url("en")}">'
+    alts = "".join(f'<link rel="alternate" hreflang="{hl(l)}" href="{url(l)}">' for l in LANGS) + f'<link rel="alternate" hreflang="x-default" href="{url("en")}">'
     opts = "".join(f'<option value="{path(l)}"{" selected" if l == lang else ""}>{e(C["i18n"][l]["name"])}</option>' for l in LANGS)
     facts = "".join(f'<div class="fact"><div class="ic">{a}</div><b>{e(b)}</b><span>{e(c)}</span></div>' for a, b, c in t["facts"])
     routes = "".join(f'<div class="route"><h3>{e(h)}</h3><p>{e(p)}</p></div>' for h, p in t["getting"])
@@ -242,11 +247,11 @@ def page(lang):
     vill = "".join(f'<li><b>{e(h)}</b><span>{e(p)}</span></li>' for h, p in t["villages"])
     tips = "".join(f"<li>{e(x)}</li>" for x in t["tips"])
     ld = {"@context": "https://schema.org", "@type": "TouristDestination", "name": "Thassos", "url": url(lang),
-          "description": t["description"], "image": img("giola", 1200), "inLanguage": lang,
+          "description": t["description"], "image": img("giola", 1200), "inLanguage": hl(lang),
           "geo": {"@type": "GeoCoordinates", "latitude": 40.68, "longitude": 24.65}}
     nav = t["nav"]
     return f"""<!DOCTYPE html>
-<html lang="{lang}">
+<html lang="{hl(lang)}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -257,7 +262,7 @@ def page(lang):
 {alts}
 <meta property="og:type" content="website"><meta property="og:title" content="{e(t['title'])}">
 <meta property="og:description" content="{e(t['description'])}"><meta property="og:image" content="{img('sunrise', 1200)}">
-<meta property="og:url" content="{url(lang)}"><meta property="og:locale" content="{lang}">
+<meta property="og:url" content="{url(lang)}"><meta property="og:locale" content="{hl(lang)}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230f8b6f'/%3E%3Cpath d='M10 40c8-6 14-6 22 0s14 6 22 0' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
@@ -341,11 +346,11 @@ def main():
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for lang in LANGS:
-        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{url(l)}"/>' for l in LANGS)
+        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{hl(l)}" href="{url(l)}"/>' for l in LANGS)
         sm.append(f"<url><loc>{url(lang)}</loc><lastmod>{C['updated']}</lastmod>{alts}</url>")
     for g in C.get("guides", []):
         for lang in LANGS:
-            alts = "".join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{gurl(l, g["slug"])}"/>' for l in LANGS)
+            alts = "".join(f'<xhtml:link rel="alternate" hreflang="{hl(l)}" href="{gurl(l, g["slug"])}"/>' for l in LANGS)
             sm.append(f"<url><loc>{gurl(lang, g['slug'])}</loc><lastmod>{g['updated']}</lastmod>{alts}</url>")
     sm.append("</urlset>\n")
     open(os.path.join(ROOT, "sitemap.xml"), "w").write("\n".join(sm))

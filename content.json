@@ -1,13 +1,14 @@
 {
   "site": "https://thassos-guide.pages.dev",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "languages": [
     "en",
     "el",
     "ro",
     "bg",
     "de",
-    "tr"
+    "tr",
+    "sr"
   ],
   "photos": {
     "giola": {
@@ -773,6 +774,126 @@
       "back": "Tüm Taşoz",
       "tips_box": "Gitmeden önce",
       "updated": "Güncellendi"
+    },
+    "sr": {
+      "name": "Srpski",
+      "title": "Vodič za Tasos: plaže, sela, trajekti i saveti",
+      "description": "Praktičan vodič za Tasos, zeleno ostrvo severne Grčke: kako stići trajektom, najlepše plaže, planinska sela, znamenitosti i kada putovati.",
+      "brand": "Vodič za Tasos",
+      "hero_kicker": "Severni Egej · Grčka",
+      "hero_title": "Tasos, smaragdno ostrvo",
+      "hero_sub": "Borove šume koje se spuštaju do mora, tirkizna voda, mermerne plaže i kamena sela, samo kratka vožnja trajektom od kopna.",
+      "cta": "Isplanirajte putovanje",
+      "nav": {
+        "getting": "Kako stići",
+        "beaches": "Plaže",
+        "villages": "Sela",
+        "sights": "Znamenitosti",
+        "tips": "Saveti"
+      },
+      "facts": [
+        [
+          "⛴",
+          "35–40 min",
+          "trajektom iz Keramotija"
+        ],
+        [
+          "☀",
+          "maj – sep.",
+          "najbolja sezona"
+        ],
+        [
+          "🏖",
+          "Desetine",
+          "plaža"
+        ],
+        [
+          "🍯",
+          "Med i mermer",
+          "klasici ostrva"
+        ]
+      ],
+      "getting_h": "Kako stići",
+      "getting": [
+        [
+          "Keramoti → Limenas",
+          "Glavna i najbrža linija: oko 35–40 minuta. U leto 2026. bilo je 38 polazaka dnevno u svakom pravcu, a zimi ih je manje. Trajekti prevoze i automobile."
+        ],
+        [
+          "Kavala → Skala Prinos",
+          "Direktno iz grada Kavale, oko 1 sat i 15 minuta, sa nekoliko polazaka dnevno."
+        ],
+        [
+          "Avionom",
+          "Najbliži aerodrom je Međunarodni aerodrom Kavala (KVA), blizu Keramotija. Odatle je do trajekta kratka vožnja automobilom ili taksijem."
+        ]
+      ],
+      "getting_note": "Redovi vožnje i cene se menjaju u zavisnosti od sezone. Pre puta uvek proverite kod trajektnih kompanija.",
+      "around_h": "Kretanje po ostrvu",
+      "around": "Automobilom ili skuterom obilazite plaže i planinska sela svojim tempom. Leti autobusi povezuju glavna sela i plaže. Ceo krug planinskih sela je oko 97 km, otprilike 2 sata vožnje.",
+      "beaches_h": "Plaže koje ne smete propustiti",
+      "beaches": [
+        [
+          "Giola",
+          "Prirodni bazen u stenama, odmah pored otvorenog mora, na južnoj obali. Najpoznatije mesto za fotografisanje na ostrvu."
+        ],
+        [
+          "Mermerna plaža (Saliara)",
+          "Beli mermerni oblutci i smaragdna voda. Do nje se stiže zemljanim putem; ima ležaljke i beach bar."
+        ],
+        [
+          "Golden Beach (Hrisi Amudja)",
+          "Više od 2 km sitnog zlatnog peska i plitka voda na istočnoj obali. Idealna za porodice."
+        ],
+        [
+          "Paradise Beach",
+          "Popularna peščana plaža okružena borovima, sa malim talasima."
+        ],
+        [
+          "Aliki",
+          "Dva zaliva pored antičkog kamenoloma mermera. Plivate među stubovima i ruševinama."
+        ]
+      ],
+      "villages_h": "Sela i znamenitosti",
+      "villages": [
+        [
+          "Limenas",
+          "Glavni grad i glavna luka. Prošetajte do Antičke agore, antičkog pozorišta na brdu i Arheološkog muzeja."
+        ],
+        [
+          "Panagija",
+          "Stara prestonica, sa kamenim kućama, tekućom vodom, platanima i dobrim tavernama."
+        ],
+        [
+          "Kazaviti",
+          "Najstarije selo na ostrvu: dva naselja, Mikro i Megalo, skrivena od obale zbog pirata."
+        ],
+        [
+          "Teologos",
+          "Kamene kuće, etnografski muzej i mirna planinska atmosfera."
+        ],
+        [
+          "Manastir Svetog arhangela Mihaila",
+          "Najveći manastir na Tasosu, na litici iznad mora. Prilikom posete obucite se pristojno."
+        ]
+      ],
+      "tips_h": "Dobro je znati",
+      "tips": [
+        "Jul i avgust su najposećeniji meseci. Maj, jun i septembar su mirniji, a i dalje topli.",
+        "U špicu sezone rezervišite automobil na vreme, a za gužve vikendom i trajekt za povratak.",
+        "Probajte lokalni med, po kome je ostrvo poznato.",
+        "Kada duva severac, plaže na istočnoj i južnoj obali su obično mirnije."
+      ],
+      "photo_credits": "Fotografije",
+      "updated_label": "Poslednja provera",
+      "disclaimer": "Informacije se redovno proveravaju, ali mogu da se promene. Redove vožnje i radno vreme potvrdite na licu mesta.",
+      "lang_label": "Jezik",
+      "guides_h": "Detaljni vodiči",
+      "read": "Pročitajte vodič",
+      "sources": "Izvori",
+      "back": "Ceo Tasos",
+      "tips_box": "Pre polaska",
+      "updated": "Ažurirano"
     }
   },
   "guides": [
@@ -967,6 +1088,35 @@
             "Patika için sağlam ayakkabı, kayalar için deniz ayakkabısı giyin.",
             "Yanınıza su, güneş kremi ve gölgelik bir şey alın; gölge neredeyse hiç yok.",
             "Deniz dalgalıyken yüzmeyin ve kayalardan atlamayın. Dalgalar duvarı aşıp havuza girebilir."
+          ]
+        },
+        "sr": {
+          "title": "Giola, Tasos: kako stići do prirodnog bazena (vodič 2026)",
+          "description": "Sve o Gioli, prirodnom morskom bazenu kod Astrisa na Tasosu: put, parking, staza, šta poneti, kada ići i saveti za bezbednost.",
+          "h1": "Giola: prirodni bazen na Tasosu",
+          "intro": "Giola, poznata i kao „Afroditina suza”, prirodni je morski bazen usečen u stene kod sela Astris, na južnoj obali Tasosa. Velika je oko 20 × 15 metara, a od otvorenog mora je deli uzan kameni zid. Pogled puca preko Egeja sve do Svete Gore.",
+          "sections": [
+            [
+              "Kako stići",
+              "Vozite obalskim putem do Astrisa. Nedugo posle sela pratite putokaze za Giolu na sporedni put koji se spušta do parkinga. Delovi tog puta oduvek su bili loši, pa vozite polako. Automobil sa većim klirensom je prednost."
+            ],
+            [
+              "Staza",
+              "Od parkinga se obeleženom stazom, sa strelicama nacrtanim na stenama, do bazena stiže za oko 10–20 minuta. Kamenita je i mestimično strma, a najteži deo je povratak uzbrdo."
+            ],
+            [
+              "Sadržaji",
+              "Nema ležaljki, suncobrana ni peska, samo stene. Mala taverna i kiosk pored staze nude hranu i piće."
+            ],
+            [
+              "Kada ići",
+              "U julu i avgustu postaje gužva već do podneva. Idite rano ujutru ili kasno popodne. Neki izleti brodom oko ostrva takođe staju ovde, ali obično samo na 15–20 minuta."
+            ]
+          ],
+          "tips": [
+            "Obujte čvrstu obuću za stazu i papuče za vodu za stene.",
+            "Ponesite vodu, kremu za sunčanje i nešto za hlad, jer hlada gotovo da nema.",
+            "Ne plivajte i ne skačite sa stena kada je more nemirno. Talasi mogu da pređu preko zida i uđu u bazen."
           ]
         }
       }
