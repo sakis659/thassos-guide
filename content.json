@@ -173,7 +173,13 @@
       "sources": "Sources",
       "back": "All of Thassos",
       "tips_box": "Before you go",
-      "updated": "Updated"
+      "updated": "Updated",
+      "map_h": "Where everything is",
+      "map_lead": "Thassos is almost round, and one coastal road circles the whole island.",
+      "map_note": "Schematic map, not to scale.",
+      "legend_ports": "Ports",
+      "legend_beaches": "Beaches",
+      "legend_villages": "Villages and sights"
     },
     "el": {
       "name": "Ελληνικά",
@@ -293,7 +299,13 @@
       "sources": "Πηγές",
       "back": "Όλη η Θάσος",
       "tips_box": "Πριν πάτε",
-      "updated": "Ενημερώθηκε"
+      "updated": "Ενημερώθηκε",
+      "map_h": "Πού βρίσκονται όλα",
+      "map_lead": "Η Θάσος είναι σχεδόν στρογγυλή, και ένας παραλιακός δρόμος κάνει τον γύρο όλου του νησιού.",
+      "map_note": "Σχηματικός χάρτης, όχι υπό κλίμακα.",
+      "legend_ports": "Λιμάνια",
+      "legend_beaches": "Παραλίες",
+      "legend_villages": "Χωριά και αξιοθέατα"
     },
     "ro": {
       "name": "Română",
@@ -413,7 +425,13 @@
       "sources": "Surse",
       "back": "Tot Thassos-ul",
       "tips_box": "Înainte să mergi",
-      "updated": "Actualizat"
+      "updated": "Actualizat",
+      "map_h": "Unde se află totul",
+      "map_lead": "Thassos este aproape rotund, iar un singur drum de coastă înconjoară toată insula.",
+      "map_note": "Hartă schematică, nu la scară.",
+      "legend_ports": "Porturi",
+      "legend_beaches": "Plaje",
+      "legend_villages": "Sate și obiective"
     },
     "bg": {
       "name": "Български",
@@ -533,7 +551,13 @@
       "sources": "Източници",
       "back": "Целият Тасос",
       "tips_box": "Преди да тръгнете",
-      "updated": "Обновено"
+      "updated": "Обновено",
+      "map_h": "Къде какво се намира",
+      "map_lead": "Тасос е почти кръгъл и един крайбрежен път обикаля целия остров.",
+      "map_note": "Схематична карта, не е в мащаб.",
+      "legend_ports": "Пристанища",
+      "legend_beaches": "Плажове",
+      "legend_villages": "Села и забележителности"
     },
     "de": {
       "name": "Deutsch",
@@ -653,7 +677,13 @@
       "sources": "Quellen",
       "back": "Ganz Thassos",
       "tips_box": "Bevor Sie losfahren",
-      "updated": "Aktualisiert"
+      "updated": "Aktualisiert",
+      "map_h": "Wo was liegt",
+      "map_lead": "Thassos ist fast rund, und eine einzige Küstenstraße führt einmal um die ganze Insel.",
+      "map_note": "Schematische Karte, nicht maßstabsgetreu.",
+      "legend_ports": "Häfen",
+      "legend_beaches": "Strände",
+      "legend_villages": "Dörfer und Sehenswertes"
     },
     "tr": {
       "name": "Türkçe",
@@ -773,7 +803,13 @@
       "sources": "Kaynaklar",
       "back": "Tüm Taşoz",
       "tips_box": "Gitmeden önce",
-      "updated": "Güncellendi"
+      "updated": "Güncellendi",
+      "map_h": "Nerede ne var",
+      "map_lead": "Taşoz neredeyse yuvarlaktır ve tek bir sahil yolu adanın çevresini dolaşır.",
+      "map_note": "Şematik harita, ölçekli değildir.",
+      "legend_ports": "Limanlar",
+      "legend_beaches": "Plajlar",
+      "legend_villages": "Köyler ve görülecek yerler"
     },
     "sr": {
       "name": "Srpski",
@@ -893,7 +929,13 @@
       "sources": "Izvori",
       "back": "Ceo Tasos",
       "tips_box": "Pre polaska",
-      "updated": "Ažurirano"
+      "updated": "Ažurirano",
+      "map_h": "Gde se šta nalazi",
+      "map_lead": "Tasos je skoro okrugao, a jedan obalski put obilazi celo ostrvo.",
+      "map_note": "Šematska mapa, nije u razmeri.",
+      "legend_ports": "Luke",
+      "legend_beaches": "Plaže",
+      "legend_villages": "Sela i znamenitosti"
     }
   },
   "guides": [
@@ -1121,5 +1163,173 @@
         }
       }
     }
-  ]
+  ],
+  "map": {
+    "note": "Approximate positions (lat/lon) for the schematic map. Not for navigation.",
+    "places": [
+      {
+        "id": "limenas",
+        "kind": "port",
+        "lat": 40.78,
+        "lon": 24.71,
+        "name": {
+          "default": "Limenas",
+          "el": "Λιμένας",
+          "bg": "Лименас"
+        }
+      },
+      {
+        "id": "prinos",
+        "kind": "port",
+        "lat": 40.765,
+        "lon": 24.612,
+        "name": {
+          "default": "Skala Prinos",
+          "el": "Σκάλα Πρίνου",
+          "bg": "Скала Принос"
+        }
+      },
+      {
+        "id": "marble",
+        "kind": "beach",
+        "lat": 40.762,
+        "lon": 24.772,
+        "name": {
+          "default": "Marble Beach",
+          "el": "Μαρμάρινη παραλία",
+          "bg": "Мраморният плаж",
+          "de": "Marmorstrand",
+          "ro": "Plaja de Marmură",
+          "tr": "Mermer Plajı",
+          "sr": "Mermerna plaža"
+        }
+      },
+      {
+        "id": "golden",
+        "kind": "beach",
+        "lat": 40.7,
+        "lon": 24.77,
+        "name": {
+          "default": "Golden Beach",
+          "el": "Χρυσή Αμμουδιά",
+          "bg": "Голдън Бийч"
+        }
+      },
+      {
+        "id": "paradise",
+        "kind": "beach",
+        "lat": 40.64,
+        "lon": 24.782,
+        "name": {
+          "default": "Paradise Beach",
+          "el": "Παράδεισος",
+          "bg": "Парадайс Бийч"
+        }
+      },
+      {
+        "id": "aliki",
+        "kind": "beach",
+        "lat": 40.602,
+        "lon": 24.744,
+        "name": {
+          "default": "Aliki",
+          "el": "Αλυκή",
+          "bg": "Алики"
+        }
+      },
+      {
+        "id": "giola",
+        "kind": "beach",
+        "lat": 40.566,
+        "lon": 24.672,
+        "guide": "giola",
+        "name": {
+          "default": "Giola",
+          "el": "Γιόλα",
+          "bg": "Гиола"
+        }
+      },
+      {
+        "id": "panagia",
+        "kind": "village",
+        "lat": 40.73,
+        "lon": 24.735,
+        "name": {
+          "default": "Panagia",
+          "el": "Παναγία",
+          "bg": "Панагия",
+          "sr": "Panagija"
+        }
+      },
+      {
+        "id": "kazaviti",
+        "kind": "village",
+        "lat": 40.738,
+        "lon": 24.628,
+        "name": {
+          "default": "Kazaviti",
+          "el": "Καζαβίτι",
+          "bg": "Казавити"
+        }
+      },
+      {
+        "id": "theologos",
+        "kind": "village",
+        "lat": 40.662,
+        "lon": 24.695,
+        "name": {
+          "default": "Theologos",
+          "el": "Θεολόγος",
+          "bg": "Теологос",
+          "sr": "Teologos"
+        }
+      },
+      {
+        "id": "potos",
+        "kind": "village",
+        "lat": 40.61,
+        "lon": 24.61,
+        "name": {
+          "default": "Potos",
+          "el": "Ποτός",
+          "bg": "Потос"
+        }
+      },
+      {
+        "id": "limenaria",
+        "kind": "village",
+        "lat": 40.627,
+        "lon": 24.575,
+        "name": {
+          "default": "Limenaria",
+          "el": "Λιμενάρια",
+          "bg": "Лименария"
+        }
+      },
+      {
+        "id": "monastery",
+        "kind": "village",
+        "lat": 40.583,
+        "lon": 24.712,
+        "name": {
+          "default": "Archangel Michael Monastery",
+          "el": "Μονή Αρχαγγέλου",
+          "bg": "Манастир Архангел Михаил",
+          "de": "Kloster Erzengel Michael",
+          "ro": "Mănăstirea Arhanghelul Mihail",
+          "tr": "Başmelek Mikail Manastırı",
+          "sr": "Manastir Arhangela Mihaila"
+        },
+        "short": {
+          "default": "Archangel Michael",
+          "el": "Μονή Αρχαγγέλου",
+          "bg": "Архангел Михаил",
+          "de": "Erzengel Michael",
+          "ro": "Arhanghelul Mihail",
+          "tr": "Başmelek Mikail",
+          "sr": "Arhangel Mihailo"
+        }
+      }
+    ]
+  }
 }
