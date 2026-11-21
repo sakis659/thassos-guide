@@ -172,6 +172,10 @@ def head(lang, title, desc, canon, alts, ogimg):
 <meta property="og:type" content="website"><meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc)}"><meta property="og:image" content="{ogimg}">
 <meta property="og:url" content="{canon}"><meta property="og:locale" content="{hl(lang)}">
+<meta property="og:site_name" content="{e(C['i18n'][lang]['brand'])}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}">
+<meta name="twitter:image" content="{ogimg}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230f8b6f'/%3E%3Cpath d='M10 40c8-6 14-6 22 0s14 6 22 0' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>{CSS}</style>"""
 
@@ -263,6 +267,10 @@ def page(lang):
 <meta property="og:type" content="website"><meta property="og:title" content="{e(t['title'])}">
 <meta property="og:description" content="{e(t['description'])}"><meta property="og:image" content="{img('sunrise', 1200)}">
 <meta property="og:url" content="{url(lang)}"><meta property="og:locale" content="{hl(lang)}">
+<meta property="og:site_name" content="{e(t['brand'])}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{e(t['title'])}"><meta name="twitter:description" content="{e(t['description'])}">
+<meta name="twitter:image" content="{img('sunrise', 1200)}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230f8b6f'/%3E%3Cpath d='M10 40c8-6 14-6 22 0s14 6 22 0' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <style>{CSS}</style>
 <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
