@@ -1,6 +1,6 @@
 {
   "site": "https://thassos-guide.pages.dev",
-  "updated": "2026-11-19",
+  "updated": "2026-11-25",
   "languages": [
     "en",
     "el",
@@ -1117,6 +1117,262 @@
             "Obujte čvrstu obuću za stazu i papuče za vodu za stene.",
             "Ponesite vodu, kremu za sunčanje i nešto za hlad, jer hlada gotovo da nema.",
             "Ne plivajte i ne skačite sa stena kada je more nemirno. Talasi mogu da pređu preko zida i uđu u bazen."
+          ]
+        }
+      }
+    },
+    {
+      "slug": "marble-beach",
+      "photo": "beach_aerial",
+      "updated": "2026-11-25",
+      "sources": [
+        {
+          "name": "Nikana.gr",
+          "url": "https://nikana.gr/en/tourist-guide/thassos/beaches/1925/marble-saliara-beach"
+        },
+        {
+          "name": "Discover Greece",
+          "url": "https://www.discovergreece.com/travel-ideas/best-of/10-best-beaches-thassos"
+        },
+        {
+          "name": "Which Greek Island",
+          "url": "https://www.whichgreekisland.co.uk/islands/thassos/beaches/saliara/"
+        },
+        {
+          "name": "Daily Travel Pill",
+          "url": "https://dailytravelpill.com/marble-beach-thassos-greece"
+        }
+      ],
+      "i18n": {
+        "en": {
+          "title": "Marble Beach Thassos (Saliara): how to get there & tips",
+          "description": "Marble Beach (Saliara) on Thassos: the dirt road from Makryammos, parking, sunbeds and beach bar, best time to go, Porto Vathy nearby and practical tips.",
+          "h1": "Marble Beach (Saliara): the white beach of Thassos",
+          "intro": "Saliara, better known as Marble Beach, is a small bay on the north-east coast of Thassos, about 20 minutes by car from Limenas. Its shore is covered in white marble pebbles from the quarries that surround it, and the bright seabed turns the water an intense turquoise. It's one of the most photographed beaches on the island.",
+          "sections": [
+            [
+              "How to get there",
+              "From Limenas, follow the signs towards Makryammos. Just before the entrance to the Makryammos beach complex, turn right onto a dirt road and follow it for about 4 km to the beach. The road is wide and has been improved, but it's unpaved, dusty and also used by trucks carrying marble from the quarries. Drive slowly and give way to the trucks. A normal car can make it in dry weather; a higher car is more comfortable."
+            ],
+            [
+              "Parking",
+              "You park on the open ground behind the beach and along the road. In July and August it fills up by late morning, so arrive early. Leave enough room for the quarry trucks to pass."
+            ],
+            [
+              "The beach and the water",
+              "The beach is small, set between rocks, with white marble pebbles instead of sand. The water gets deep a few metres from the shore and can get choppy on windy days, so it's better for confident swimmers than for small children. On calm mornings the colour of the sea is at its best."
+            ],
+            [
+              "Facilities",
+              "There's a beach bar with music in high season, plus paid sunbeds and umbrellas, toilets and showers. Free space for a towel is limited. Prices change every season, so check on the spot. Out of season the bar may be closed and the beach much quieter."
+            ],
+            [
+              "Porto Vathy nearby",
+              "If Saliara is too busy or loud, continue a short way along the same road to Porto Vathy, a similar marble bay with pine trees and fewer people. Facilities there vary from year to year, so bring what you need."
+            ]
+          ],
+          "tips": [
+            "Wear water shoes: the marble pebbles are hard on the feet.",
+            "Your car will get covered in white dust. There are car washes near the end of the road and in the villages.",
+            "Go early in the morning, both for parking and for the clearest water."
+          ]
+        },
+        "el": {
+          "title": "Παραλία Σαλιάρα (Marble Beach) Θάσου: πώς θα πάτε και συμβουλές",
+          "description": "Η Σαλιάρα (Marble Beach) της Θάσου: ο χωματόδρομος από τη Μακρυάμμο, πάρκινγκ, ξαπλώστρες και beach bar, πότε να πάτε, το Πόρτο Βάθη και πρακτικές συμβουλές.",
+          "h1": "Σαλιάρα (Marble Beach): η λευκή παραλία της Θάσου",
+          "intro": "Η Σαλιάρα, γνωστή σε όλους ως Marble Beach, είναι ένας μικρός κόλπος στη βορειοανατολική ακτή της Θάσου, περίπου 20 λεπτά με το αυτοκίνητο από τον Λιμένα. Η ακτή της είναι στρωμένη με λευκά μαρμαρένια βότσαλα από τα λατομεία γύρω της, και ο φωτεινός βυθός δίνει στο νερό ένα έντονο τιρκουάζ χρώμα. Είναι από τις πιο φωτογραφημένες παραλίες του νησιού.",
+          "sections": [
+            [
+              "Πώς θα πάτε",
+              "Από τον Λιμένα ακολουθήστε τις πινακίδες για τη Μακρυάμμο. Λίγο πριν από την είσοδο του συγκροτήματος της Μακρυάμμου, στρίψτε δεξιά στον χωματόδρομο και συνεχίστε περίπου 4 χλμ. ως την παραλία. Ο δρόμος είναι φαρδύς και έχει βελτιωθεί, όμως παραμένει χωμάτινος, έχει πολλή σκόνη και τον χρησιμοποιούν και τα φορτηγά που μεταφέρουν μάρμαρο από τα λατομεία. Οδηγήστε αργά και δώστε προτεραιότητα στα φορτηγά. Με ξηρό καιρό περνάει και ένα κανονικό αυτοκίνητο, ένα ψηλότερο όμως είναι πιο άνετο."
+            ],
+            [
+              "Πάρκινγκ",
+              "Παρκάρετε στον ανοιχτό χώρο πίσω από την παραλία και στην άκρη του δρόμου. Τον Ιούλιο και τον Αύγουστο γεμίζει ως τις μεσημεριανές ώρες, οπότε πηγαίνετε νωρίς. Αφήστε χώρο για να περνούν τα φορτηγά του λατομείου."
+            ],
+            [
+              "Η παραλία και η θάλασσα",
+              "Η παραλία είναι μικρή, ανάμεσα σε βράχια, με λευκά μαρμαρένια βότσαλα αντί για άμμο. Το νερό βαθαίνει λίγα μέτρα από την ακτή και με αέρα μπορεί να έχει κύμα, οπότε ταιριάζει περισσότερο σε καλούς κολυμβητές παρά σε μικρά παιδιά. Τα πρωινά με μπουνάτσα το χρώμα της θάλασσας είναι στα καλύτερά του."
+            ],
+            [
+              "Παροχές",
+              "Υπάρχει beach bar με μουσική τη σεζόν, ξαπλώστρες και ομπρέλες επί πληρωμή, τουαλέτες και ντους. Ο ελεύθερος χώρος για πετσέτα είναι λίγος. Οι τιμές αλλάζουν κάθε χρονιά, οπότε ενημερωθείτε επί τόπου. Εκτός σεζόν το μπαρ μπορεί να είναι κλειστό και η παραλία πολύ πιο ήσυχη."
+            ],
+            [
+              "Πόρτο Βάθη, δίπλα",
+              "Αν η Σαλιάρα έχει πολύ κόσμο ή δυνατή μουσική, συνεχίστε λίγο ακόμα στον ίδιο δρόμο ως το Πόρτο Βάθη, έναν παρόμοιο μαρμαρένιο κόλπο με πεύκα και λιγότερο κόσμο. Οι παροχές εκεί αλλάζουν από χρονιά σε χρονιά, οπότε πάρτε μαζί ό,τι χρειάζεστε."
+            ]
+          ],
+          "tips": [
+            "Φορέστε παπούτσια θαλάσσης: τα μαρμαρένια βότσαλα πονάνε στο περπάτημα.",
+            "Το αυτοκίνητο θα γεμίσει λευκή σκόνη. Υπάρχουν πλυντήρια κοντά στο τέλος του δρόμου και στα χωριά.",
+            "Πηγαίνετε νωρίς το πρωί, και για πάρκινγκ και για το πιο καθαρό νερό."
+          ]
+        },
+        "ro": {
+          "title": "Marble Beach Thassos (Saliara): cum ajungi și sfaturi",
+          "description": "Marble Beach (Saliara) din Thassos: drumul de pământ de la Makryammos, parcare, șezlonguri și beach bar, când să mergi, plaja Porto Vathy și sfaturi practice.",
+          "h1": "Marble Beach (Saliara): plaja albă din Thassos",
+          "intro": "Saliara, cunoscută de toată lumea ca Marble Beach, este un golf mic pe coasta de nord-est a insulei Thassos, la aproximativ 20 de minute cu mașina de Limenas. Țărmul e acoperit cu pietricele albe de marmură din carierele din jur, iar fundul luminos al mării dă apei o culoare turcoaz intensă. Este una dintre cele mai fotografiate plaje de pe insulă.",
+          "sections": [
+            [
+              "Cum ajungi",
+              "Din Limenas urmează indicatoarele spre Makryammos. Chiar înainte de intrarea în complexul Makryammos, fă dreapta pe drumul de pământ și mergi aproximativ 4 km până la plajă. Drumul e lat și a fost îmbunătățit, dar rămâne nepavat, cu mult praf, și e folosit și de camioanele care transportă marmură din cariere. Condu încet și lasă camioanele să treacă. Pe vreme uscată ajungi și cu o mașină obișnuită, dar una mai înaltă e mai comodă."
+            ],
+            [
+              "Parcare",
+              "Parchezi pe terenul deschis din spatele plajei și pe marginea drumului. În iulie și august se umple până la prânz, așa că vino devreme. Lasă loc camioanelor din carieră să treacă."
+            ],
+            [
+              "Plaja și apa",
+              "Plaja e mică, între stânci, cu pietricele albe de marmură în loc de nisip. Apa devine adâncă la câțiva metri de mal și poate avea valuri când bate vântul, deci e mai potrivită pentru înotători siguri decât pentru copii mici. În diminețile fără vânt culoarea mării e cea mai frumoasă."
+            ],
+            [
+              "Facilități",
+              "Există un beach bar cu muzică în sezon, șezlonguri și umbrele cu plată, toalete și dușuri. Locul liber pentru prosop e puțin. Prețurile se schimbă în fiecare sezon, așa că întreabă la fața locului. În afara sezonului barul poate fi închis, iar plaja mult mai liniștită."
+            ],
+            [
+              "Porto Vathy, alături",
+              "Dacă Saliara e prea aglomerată sau gălăgioasă, mergi puțin mai departe pe același drum până la Porto Vathy, un golf asemănător, cu marmură și pini, dar cu mai puțină lume. Facilitățile de acolo variază de la an la an, așa că ia cu tine ce îți trebuie."
+            ]
+          ],
+          "tips": [
+            "Poartă încălțări de apă: pietricelele de marmură sunt dure pentru tălpi.",
+            "Mașina se va umple de praf alb. Găsești spălătorii auto aproape de capătul drumului și în sate.",
+            "Mergi devreme dimineața, și pentru parcare, și pentru apa cea mai limpede."
+          ]
+        },
+        "bg": {
+          "title": "Марбъл Бийч, Тасос (Салиара): как да стигнете и съвети",
+          "description": "Марбъл Бийч (Салиара) на Тасос: черният път от Макриамос, паркинг, шезлонги и бийч бар, кога да отидете, плажът Порто Вати и практични съвети.",
+          "h1": "Марбъл Бийч (Салиара): белият плаж на Тасос",
+          "intro": "Салиара, известна на всички като Марбъл Бийч (Мраморния плаж), е малък залив на североизточния бряг на Тасос, на около 20 минути с кола от Лименас. Брегът е покрит с бели мраморни камъчета от кариерите наоколо, а светлото дъно оцветява водата в наситено тюркоазено. Това е един от най-сниманите плажове на острова.",
+          "sections": [
+            [
+              "Как да стигнете",
+              "От Лименас следвайте табелите за Макриамос. Малко преди входа на комплекса Макриамос завийте надясно по черния път и карайте около 4 км до плажа. Пътят е широк и е подобрен, но е без асфалт, много прашен и по него минават и камиони, които извозват мрамор от кариерите. Карайте бавно и давайте път на камионите. При сухо време се минава и с обикновена кола, но с по-висока е по-удобно."
+            ],
+            [
+              "Паркинг",
+              "Паркира се на откритата площ зад плажа и покрай пътя. През юли и август се запълва до обяд, затова отидете рано. Оставяйте място да минават камионите от кариерата."
+            ],
+            [
+              "Плажът и водата",
+              "Плажът е малък, между скали, с бели мраморни камъчета вместо пясък. Водата става дълбока на няколко метра от брега, а при вятър може да има вълни, така че е по-подходящ за уверени плувци, отколкото за малки деца. В тихите сутрини цветът на морето е най-красив."
+            ],
+            [
+              "Удобства",
+              "Има бийч бар с музика през сезона, платени шезлонги и чадъри, тоалетни и душове. Свободното място за кърпа е малко. Цените се менят всеки сезон, затова проверете на място. Извън сезона барът може да е затворен, а плажът е много по-спокоен."
+            ],
+            [
+              "Порто Вати наблизо",
+              "Ако в Салиара е твърде пълно или шумно, продължете още малко по същия път до Порто Вати, подобен мраморен залив с борове и по-малко хора. Удобствата там се менят от година на година, затова носете каквото ви трябва."
+            ]
+          ],
+          "tips": [
+            "Носете обувки за вода: мраморните камъчета са твърди за краката.",
+            "Колата ще се покрие с бял прах. Има автомивки близо до края на пътя и в селата.",
+            "Отидете рано сутринта, и заради паркинга, и заради най-бистрата вода."
+          ]
+        },
+        "de": {
+          "title": "Marble Beach Thassos (Saliara): Anfahrt & Tipps",
+          "description": "Marble Beach (Saliara) auf Thassos: die Schotterstraße ab Makryammos, Parken, Liegen und Strandbar, beste Reisezeit, Porto Vathy nebenan und praktische Tipps.",
+          "h1": "Marble Beach (Saliara): der weiße Strand von Thassos",
+          "intro": "Saliara, besser bekannt als Marble Beach, ist eine kleine Bucht an der Nordostküste von Thassos, etwa 20 Autominuten von Limenas entfernt. Das Ufer ist mit weißen Marmorkieseln aus den umliegenden Steinbrüchen bedeckt, und der helle Meeresgrund färbt das Wasser intensiv türkis. Es ist einer der meistfotografierten Strände der Insel.",
+          "sections": [
+            [
+              "Anfahrt",
+              "Folgen Sie in Limenas den Schildern nach Makryammos. Kurz vor der Einfahrt zur Anlage von Makryammos biegen Sie rechts auf die Schotterstraße ab und fahren etwa 4 km bis zum Strand. Die Straße ist breit und wurde ausgebaut, bleibt aber unbefestigt und sehr staubig. Außerdem fahren hier Lkw, die Marmor aus den Steinbrüchen transportieren. Fahren Sie langsam und lassen Sie den Lkw Vorrang. Bei trockenem Wetter schafft es auch ein normales Auto, ein höheres ist aber bequemer."
+            ],
+            [
+              "Parken",
+              "Geparkt wird auf der freien Fläche hinter dem Strand und am Straßenrand. Im Juli und August ist bis zum späten Vormittag alles voll, also früh kommen. Lassen Sie genug Platz, damit die Lkw aus dem Steinbruch vorbeikommen."
+            ],
+            [
+              "Strand und Wasser",
+              "Der Strand ist klein und liegt zwischen Felsen, statt Sand gibt es weiße Marmorkiesel. Das Wasser wird schon wenige Meter vom Ufer tief und kann bei Wind unruhig sein. Er eignet sich daher eher für sichere Schwimmer als für kleine Kinder. An windstillen Morgen ist die Farbe des Meeres am schönsten."
+            ],
+            [
+              "Ausstattung",
+              "Es gibt eine Strandbar mit Musik in der Hochsaison, kostenpflichtige Liegen und Sonnenschirme, Toiletten und Duschen. Freier Platz für ein Handtuch ist knapp. Die Preise ändern sich jede Saison, informieren Sie sich vor Ort. Außerhalb der Saison kann die Bar geschlossen sein, und der Strand ist viel ruhiger."
+            ],
+            [
+              "Porto Vathy nebenan",
+              "Wenn es in Saliara zu voll oder zu laut ist, fahren Sie auf derselben Straße ein kurzes Stück weiter nach Porto Vathy, einer ähnlichen Marmorbucht mit Kiefern und weniger Besuchern. Die Ausstattung dort wechselt von Jahr zu Jahr, nehmen Sie also mit, was Sie brauchen."
+            ]
+          ],
+          "tips": [
+            "Tragen Sie Badeschuhe: Die Marmorkiesel sind hart für die Füße.",
+            "Das Auto wird mit weißem Staub bedeckt. Autowaschanlagen gibt es nahe dem Ende der Straße und in den Dörfern.",
+            "Kommen Sie früh am Morgen, wegen der Parkplätze und wegen des klarsten Wassers."
+          ]
+        },
+        "tr": {
+          "title": "Marble Beach Taşoz (Saliara): nasıl gidilir ve ipuçları",
+          "description": "Taşoz'daki Marble Beach (Saliara): Makryammos'tan toprak yol, otopark, şezlong ve beach bar, ne zaman gidilir, yakındaki Porto Vathy ve pratik ipuçları.",
+          "h1": "Marble Beach (Saliara): Taşoz'un beyaz plajı",
+          "intro": "Herkesin Marble Beach (Mermer Plajı) olarak bildiği Saliara, Taşoz'un kuzeydoğu kıyısında, Limenas'a arabayla yaklaşık 20 dakika uzaklıkta küçük bir koydur. Kıyısı, çevresindeki taş ocaklarından gelen beyaz mermer çakıllarla kaplıdır ve açık renkli deniz tabanı suya yoğun bir turkuaz renk verir. Adanın en çok fotoğraflanan plajlarından biridir.",
+          "sections": [
+            [
+              "Nasıl gidilir",
+              "Limenas'tan Makryammos tabelalarını takip edin. Makryammos tesisinin girişinden hemen önce sağa, toprak yola dönün ve plaja kadar yaklaşık 4 km devam edin. Yol geniş ve iyileştirilmiş olsa da asfaltsız ve çok tozludur; taş ocaklarından mermer taşıyan kamyonlar da bu yolu kullanır. Yavaş gidin ve kamyonlara yol verin. Kuru havada normal bir araba da geçer, ama yüksek bir araç daha rahattır."
+            ],
+            [
+              "Otopark",
+              "Plajın arkasındaki açık alana ve yol kenarına park edilir. Temmuz ve ağustosta öğleye doğru dolar, bu yüzden erken gidin. Taş ocağı kamyonlarının geçmesi için yer bırakın."
+            ],
+            [
+              "Plaj ve deniz",
+              "Plaj küçüktür, kayaların arasındadır ve kum yerine beyaz mermer çakıllarla kaplıdır. Su kıyıdan birkaç metre sonra derinleşir ve rüzgârlı günlerde dalgalı olabilir; bu yüzden küçük çocuklardan çok iyi yüzücülere uygundur. Rüzgârsız sabahlarda denizin rengi en güzel hâlindedir."
+            ],
+            [
+              "Olanaklar",
+              "Sezonda müzikli bir beach bar, ücretli şezlong ve şemsiyeler, tuvalet ve duşlar vardır. Havlu serecek boş yer azdır. Fiyatlar her sezon değişir, bu yüzden yerinde sorun. Sezon dışında bar kapalı olabilir ve plaj çok daha sakindir."
+            ],
+            [
+              "Yakındaki Porto Vathy",
+              "Saliara çok kalabalık ya da gürültülüyse, aynı yolda biraz daha ilerleyip Porto Vathy'ye gidin: çam ağaçlı, daha az kalabalık, benzer bir mermer koy. Oradaki olanaklar yıldan yıla değişir, ihtiyacınız olanı yanınıza alın."
+            ]
+          ],
+          "tips": [
+            "Deniz ayakkabısı giyin: mermer çakıllar ayağı acıtır.",
+            "Arabanız beyaz tozla kaplanacak. Yolun sonuna yakın ve köylerde oto yıkama var.",
+            "Hem otopark hem de en berrak su için sabah erken gidin."
+          ]
+        },
+        "sr": {
+          "title": "Marble Beach, Tasos (Saliara): kako stići i saveti",
+          "description": "Marble Beach (Saliara) na Tasosu: makadamski put od Makrijamosa, parking, ležaljke i beach bar, kada ići, obližnja plaža Porto Vati i praktični saveti.",
+          "h1": "Marble Beach (Saliara): bela plaža Tasosa",
+          "intro": "Saliara, svima poznata kao Marble Beach (Mermerna plaža), mali je zaliv na severoistočnoj obali Tasosa, oko 20 minuta kolima od Limenasa. Obala je prekrivena belim mermernim oblucima iz okolnih kamenoloma, a svetlo dno daje vodi jarku tirkiznu boju. Jedna je od najfotografisanijih plaža na ostrvu.",
+          "sections": [
+            [
+              "Kako stići",
+              "Iz Limenasa pratite putokaze za Makrijamos. Malo pre ulaza u kompleks Makrijamos skrenite desno na makadamski put i vozite oko 4 km do plaže. Put je širok i poboljšan, ali je i dalje neasfaltiran, veoma prašnjav, a njime voze i kamioni koji prevoze mermer iz kamenoloma. Vozite polako i propuštajte kamione. Po suvom vremenu prolazi i običan automobil, ali je sa višim lakše."
+            ],
+            [
+              "Parking",
+              "Parkira se na otvorenom prostoru iza plaže i pored puta. U julu i avgustu se popuni do podneva, pa dođite rano. Ostavite dovoljno mesta da kamioni iz kamenoloma mogu da prođu."
+            ],
+            [
+              "Plaža i more",
+              "Plaža je mala, između stena, sa belim mermernim oblucima umesto peska. Voda postaje duboka već nekoliko metara od obale, a kada duva vetar mogu da budu talasi, pa više odgovara sigurnim plivačima nego maloj deci. U mirnim jutrima boja mora je najlepša."
+            ],
+            [
+              "Sadržaji",
+              "Tu je beach bar sa muzikom u sezoni, ležaljke i suncobrani koji se plaćaju, toaleti i tuševi. Slobodnog mesta za peškir ima malo. Cene se menjaju svake sezone, pa proverite na licu mesta. Van sezone bar može biti zatvoren, a plaža je mnogo mirnija."
+            ],
+            [
+              "Porto Vati u blizini",
+              "Ako je na Saliari prevelika gužva ili preglasna muzika, nastavite još malo istim putem do Porto Vatija, sličnog mermernog zaliva sa borovima i manje ljudi. Sadržaji tamo se menjaju iz godine u godinu, pa ponesite sve što vam treba."
+            ]
+          ],
+          "tips": [
+            "Obujte papuče za vodu: mermerni oblutci su tvrdi za stopala.",
+            "Automobil će biti prekriven belom prašinom. Perionice postoje blizu kraja puta i u selima.",
+            "Idite rano ujutru, i zbog parkinga i zbog najbistrije vode."
           ]
         }
       }
