@@ -73,6 +73,10 @@ img{display:block}figcaption{font-size:.72rem;color:var(--muted);margin-top:6px}
 .card:nth-child(4){background:linear-gradient(160deg,#4fa37a,#1d5a46)}
 .card:nth-child(5){background:linear-gradient(160deg,#7fb6d6,#2d5f86)}
 .card:after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;border:2px solid #ffffff33}
+a.card{text-decoration:none;transition:transform .2s,box-shadow .2s}
+a.card:hover,a.card:focus-visible{transform:translateY(-3px);box-shadow:0 14px 30px -14px #062a3a99}
+a.card:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.card .cmore{display:inline-block;margin-top:12px;font-weight:700;font-size:.92rem;color:#fff;border-bottom:2px solid #ffffff99;align-self:flex-start;position:relative;z-index:1}
 .card h3{font-size:1.25rem;margin-bottom:6px}.card p{font-size:.93rem;color:#ffffffe6}
 .vgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
 @media(max-width:860px){.vgrid{grid-template-columns:1fr}}
@@ -147,7 +151,7 @@ footer .cols>div{min-width:0}
 
 <section id="beaches"><div class="wrap">
   <div class="sh"><h2>Plaje de neratat</h2></div>
-  <div class="cards"><div class="card"><h3>Giola</h3><p>O piscină naturală între stânci, lângă largul mării, pe coasta de sud. Cel mai celebru loc de fotografii al insulei.</p></div><div class="card"><h3>Plaja de Marmură (Saliara)</h3><p>Pietricele albe de marmură și apă de smarald. Se ajunge pe un drum de pământ; are șezlonguri și beach bar.</p></div><div class="card"><h3>Golden Beach (Chrysi Ammoudia)</h3><p>Peste 2 km de nisip fin, auriu, și apă mică pe coasta de est. Ideală pentru familii.</p></div><div class="card"><h3>Paradise Beach</h3><p>O plajă de nisip foarte populară, înconjurată de pini, cu valuri mici.</p></div><div class="card"><h3>Aliki</h3><p>Două golfuri lângă o carieră antică de marmură. Înoți printre coloane și ruine.</p></div></div>
+  <div class="cards"><a class="card link" href="/ro/giola/"><h3>Giola</h3><p>O piscină naturală între stânci, lângă largul mării, pe coasta de sud. Cel mai celebru loc de fotografii al insulei.</p><span class="cmore">Citește ghidul →</span></a><a class="card link" href="/ro/marble-beach/"><h3>Plaja de Marmură (Saliara)</h3><p>Pietricele albe de marmură și apă de smarald. Se ajunge pe un drum de pământ; are șezlonguri și beach bar.</p><span class="cmore">Citește ghidul →</span></a><div class="card"><h3>Golden Beach (Chrysi Ammoudia)</h3><p>Peste 2 km de nisip fin, auriu, și apă mică pe coasta de est. Ideală pentru familii.</p></div><div class="card"><h3>Paradise Beach</h3><p>O plajă de nisip foarte populară, înconjurată de pini, cu valuri mici.</p></div><div class="card"><h3>Aliki</h3><p>Două golfuri lângă o carieră antică de marmură. Înoți printre coloane și ruine.</p></div></div>
 </div></section>
 
 <section id="villages"><div class="wrap">

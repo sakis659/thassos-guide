@@ -73,6 +73,10 @@ img{display:block}figcaption{font-size:.72rem;color:var(--muted);margin-top:6px}
 .card:nth-child(4){background:linear-gradient(160deg,#4fa37a,#1d5a46)}
 .card:nth-child(5){background:linear-gradient(160deg,#7fb6d6,#2d5f86)}
 .card:after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;border:2px solid #ffffff33}
+a.card{text-decoration:none;transition:transform .2s,box-shadow .2s}
+a.card:hover,a.card:focus-visible{transform:translateY(-3px);box-shadow:0 14px 30px -14px #062a3a99}
+a.card:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.card .cmore{display:inline-block;margin-top:12px;font-weight:700;font-size:.92rem;color:#fff;border-bottom:2px solid #ffffff99;align-self:flex-start;position:relative;z-index:1}
 .card h3{font-size:1.25rem;margin-bottom:6px}.card p{font-size:.93rem;color:#ffffffe6}
 .vgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
 @media(max-width:860px){.vgrid{grid-template-columns:1fr}}
@@ -147,7 +151,7 @@ footer .cols>div{min-width:0}
 
 <section id="beaches"><div class="wrap">
   <div class="sh"><h2>Plaže koje ne smete propustiti</h2></div>
-  <div class="cards"><div class="card"><h3>Giola</h3><p>Prirodni bazen u stenama, odmah pored otvorenog mora, na južnoj obali. Najpoznatije mesto za fotografisanje na ostrvu.</p></div><div class="card"><h3>Mermerna plaža (Saliara)</h3><p>Beli mermerni oblutci i smaragdna voda. Do nje se stiže zemljanim putem; ima ležaljke i beach bar.</p></div><div class="card"><h3>Golden Beach (Hrisi Amudja)</h3><p>Više od 2 km sitnog zlatnog peska i plitka voda na istočnoj obali. Idealna za porodice.</p></div><div class="card"><h3>Paradise Beach</h3><p>Popularna peščana plaža okružena borovima, sa malim talasima.</p></div><div class="card"><h3>Aliki</h3><p>Dva zaliva pored antičkog kamenoloma mermera. Plivate među stubovima i ruševinama.</p></div></div>
+  <div class="cards"><a class="card link" href="/sr/giola/"><h3>Giola</h3><p>Prirodni bazen u stenama, odmah pored otvorenog mora, na južnoj obali. Najpoznatije mesto za fotografisanje na ostrvu.</p><span class="cmore">Pročitajte vodič →</span></a><a class="card link" href="/sr/marble-beach/"><h3>Mermerna plaža (Saliara)</h3><p>Beli mermerni oblutci i smaragdna voda. Do nje se stiže zemljanim putem; ima ležaljke i beach bar.</p><span class="cmore">Pročitajte vodič →</span></a><div class="card"><h3>Golden Beach (Hrisi Amudja)</h3><p>Više od 2 km sitnog zlatnog peska i plitka voda na istočnoj obali. Idealna za porodice.</p></div><div class="card"><h3>Paradise Beach</h3><p>Popularna peščana plaža okružena borovima, sa malim talasima.</p></div><div class="card"><h3>Aliki</h3><p>Dva zaliva pored antičkog kamenoloma mermera. Plivate među stubovima i ruševinama.</p></div></div>
 </div></section>
 
 <section id="villages"><div class="wrap">

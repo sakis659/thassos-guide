@@ -73,6 +73,10 @@ img{display:block}figcaption{font-size:.72rem;color:var(--muted);margin-top:6px}
 .card:nth-child(4){background:linear-gradient(160deg,#4fa37a,#1d5a46)}
 .card:nth-child(5){background:linear-gradient(160deg,#7fb6d6,#2d5f86)}
 .card:after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;border:2px solid #ffffff33}
+a.card{text-decoration:none;transition:transform .2s,box-shadow .2s}
+a.card:hover,a.card:focus-visible{transform:translateY(-3px);box-shadow:0 14px 30px -14px #062a3a99}
+a.card:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.card .cmore{display:inline-block;margin-top:12px;font-weight:700;font-size:.92rem;color:#fff;border-bottom:2px solid #ffffff99;align-self:flex-start;position:relative;z-index:1}
 .card h3{font-size:1.25rem;margin-bottom:6px}.card p{font-size:.93rem;color:#ffffffe6}
 .vgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
 @media(max-width:860px){.vgrid{grid-template-columns:1fr}}
@@ -147,7 +151,7 @@ footer .cols>div{min-width:0}
 
 <section id="beaches"><div class="wrap">
   <div class="sh"><h2>Παραλίες που δεν πρέπει να χάσετε</h2></div>
-  <div class="cards"><div class="card"><h3>Γιόλα</h3><p>Φυσική πισίνα στα βράχια, δίπλα στο ανοιχτό πέλαγος, στη νότια ακτή. Το πιο διάσημο σημείο του νησιού για φωτογραφίες.</p></div><div class="card"><h3>Μαρμάρινη παραλία (Σαλιάρα)</h3><p>Λευκά μαρμάρινα βότσαλα και σμαραγδένια νερά. Πρόσβαση από χωματόδρομο, με ξαπλώστρες και beach bar.</p></div><div class="card"><h3>Χρυσή Αμμουδιά (Golden Beach)</h3><p>Πάνω από 2 χλμ. ψιλή χρυσή άμμος και ρηχά νερά στην ανατολική ακτή. Ιδανική για οικογένειες.</p></div><div class="card"><h3>Παράδεισος (Paradise Beach)</h3><p>Δημοφιλής αμμουδιά μέσα στα πεύκα, με μικρά κύματα.</p></div><div class="card"><h3>Αλυκή</h3><p>Δύο κολπίσκοι δίπλα σε αρχαίο λατομείο μαρμάρου. Κολυμπάτε ανάμεσα σε κίονες και αρχαία ερείπια.</p></div></div>
+  <div class="cards"><a class="card link" href="/el/giola/"><h3>Γιόλα</h3><p>Φυσική πισίνα στα βράχια, δίπλα στο ανοιχτό πέλαγος, στη νότια ακτή. Το πιο διάσημο σημείο του νησιού για φωτογραφίες.</p><span class="cmore">Διαβάστε τον οδηγό →</span></a><a class="card link" href="/el/marble-beach/"><h3>Μαρμάρινη παραλία (Σαλιάρα)</h3><p>Λευκά μαρμάρινα βότσαλα και σμαραγδένια νερά. Πρόσβαση από χωματόδρομο, με ξαπλώστρες και beach bar.</p><span class="cmore">Διαβάστε τον οδηγό →</span></a><div class="card"><h3>Χρυσή Αμμουδιά (Golden Beach)</h3><p>Πάνω από 2 χλμ. ψιλή χρυσή άμμος και ρηχά νερά στην ανατολική ακτή. Ιδανική για οικογένειες.</p></div><div class="card"><h3>Παράδεισος (Paradise Beach)</h3><p>Δημοφιλής αμμουδιά μέσα στα πεύκα, με μικρά κύματα.</p></div><div class="card"><h3>Αλυκή</h3><p>Δύο κολπίσκοι δίπλα σε αρχαίο λατομείο μαρμάρου. Κολυμπάτε ανάμεσα σε κίονες και αρχαία ερείπια.</p></div></div>
 </div></section>
 
 <section id="villages"><div class="wrap">
