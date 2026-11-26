@@ -96,6 +96,10 @@ img{display:block}figcaption{font-size:.72rem;color:var(--muted);margin-top:6px}
 .card:nth-child(4){background:linear-gradient(160deg,#4fa37a,#1d5a46)}
 .card:nth-child(5){background:linear-gradient(160deg,#7fb6d6,#2d5f86)}
 .card:after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;border:2px solid #ffffff33}
+a.card{text-decoration:none;transition:transform .2s,box-shadow .2s}
+a.card:hover,a.card:focus-visible{transform:translateY(-3px);box-shadow:0 14px 30px -14px #062a3a99}
+a.card:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.card .cmore{display:inline-block;margin-top:12px;font-weight:700;font-size:.92rem;color:#fff;border-bottom:2px solid #ffffff99;align-self:flex-start;position:relative;z-index:1}
 .card h3{font-size:1.25rem;margin-bottom:6px}.card p{font-size:.93rem;color:#ffffffe6}
 .vgrid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
 @media(max-width:860px){.vgrid{grid-template-columns:1fr}}
@@ -247,7 +251,17 @@ def page(lang):
     opts = "".join(f'<option value="{path(l)}"{" selected" if l == lang else ""}>{e(C["i18n"][l]["name"])}</option>' for l in LANGS)
     facts = "".join(f'<div class="fact"><div class="ic">{a}</div><b>{e(b)}</b><span>{e(c)}</span></div>' for a, b, c in t["facts"])
     routes = "".join(f'<div class="route"><h3>{e(h)}</h3><p>{e(p)}</p></div>' for h, p in t["getting"])
-    beaches = "".join(f'<div class="card"><h3>{e(h)}</h3><p>{e(p)}</p></div>' for h, p in t["beaches"])
+    # Η σειρά των παραλιών στο content.json αντιστοιχεί σε αυτά τα slugs οδηγών (βλ. AGENT.md).
+    # Μόλις υπάρξει οδηγός, η κάρτα γίνεται αυτόματα link προς αυτόν.
+    BEACH_GUIDES = ["giola", "marble-beach", "golden-beach", "paradise-beach", "aliki"]
+    have = {g["slug"] for g in C.get("guides", [])}
+    def bcard(i, h, p):
+        slug = BEACH_GUIDES[i] if i < len(BEACH_GUIDES) else None
+        if slug in have:
+            return (f'<a class="card link" href="{gpath(lang, slug)}"><h3>{e(h)}</h3><p>{e(p)}</p>'
+                    f'<span class="cmore">{e(t["read"])} →</span></a>')
+        return f'<div class="card"><h3>{e(h)}</h3><p>{e(p)}</p></div>'
+    beaches = "".join(bcard(i, h, p) for i, (h, p) in enumerate(t["beaches"]))
     vill = "".join(f'<li><b>{e(h)}</b><span>{e(p)}</span></li>' for h, p in t["villages"])
     tips = "".join(f"<li>{e(x)}</li>" for x in t["tips"])
     ld = {"@context": "https://schema.org", "@type": "TouristDestination", "name": "Thassos", "url": url(lang),
